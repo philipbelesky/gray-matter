@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Byworded Light</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1a191a</string>
+				<key>caret</key>
+				<string>#bebebe</string>
+				<key>foreground</key>
+				<string>#bebebe</string>
+				<key>invisibles</key>
+				<string>#BFBFBF</string>
+				<key>lineHighlight</key>
+				<string>#00000012</string>
+				<key>selection</key>
+				<string>#B7D5FE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Structural Elements</string>
+			<key>scope</key>
+			<string>punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.heading.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.metadata.markdown, punctuation.definition.list_item.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#616161</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Heading Text</string>
+			<key>scope</key>
+			<string>entity</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#bebebe</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Italic Text</string>
+			<key>scope</key>
+			<string>markup.italic.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown Bold Text</string>
+            <key>scope</key>
+            <string>markup.bold.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown Link Grammar</string>
+            <key>scope</key>
+            <string>punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown, punctuation.definition.metadata.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#616161</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown Link Reference</string>
+            <key>scope</key>
+            <string>punctuation.definition.metadata.markdown, string.other.link.title.markdown, meta.link.inline.markdown, meta.link.reference.markdown, string.other.link.description.title.markdown, meta.link.reference.literal.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#616161</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown Link Actual Text</string>
+            <key>scope</key>
+            <string>string.other.link.title.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#bebebe</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown Link URL Text</string>
+            <key>scope</key>
+            <string>markup.underline.link.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#616161</string>
+                <key>fontStyle</key>
+                <string></string>
+            </dict>
+        </dict>
+	</array>
+	<key>uuid</key>
+	<string>2250B6DC-C3BE-4BE8-B815-17B11D90BD6H</string>
+</dict>
+</plist>
