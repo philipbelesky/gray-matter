@@ -15,5 +15,3 @@ Copy both **.tmTheme** files to ~/Library/Application Support/Sublime Text 2/Pac
 ## Development
 
 - Note that the syntax highlighting will not match that of Byword in all circumstances. This is due to the fact this theme is still a work in progress and because of some constraints in the Markdown/MultiMarkdown .tmLanguage files.
-
-- The bold and italic fontStyles are currently not supported in Sublime Text 2. Please [vote on the issue here](http://sublimetext.userecho.com/topic/20780-implement-fontstyle-in-tmtheme/).

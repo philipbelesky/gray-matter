@@ -10,17 +10,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1a191a</string>
+				<string>#F2F2F2</string>
 				<key>caret</key>
-				<string>#bebebe</string>
+				<string>#3C3C3C</string>
 				<key>foreground</key>
-				<string>#bebebe</string>
+				<string>#3C3C3C</string>
 				<key>invisibles</key>
 				<string>#BFBFBF</string>
 				<key>lineHighlight</key>
-				<string>#00000012</string>
+				<string>#303131</string>
 				<key>selection</key>
-				<string>#B7D5FE</string>
+				<string>#B5D5FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -31,7 +31,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#616161</string>
+				<string>#B9B9B9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -44,7 +44,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#bebebe</string>
+				<string>#3C3C3C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -77,7 +77,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#616161</string>
+                <string>#B9B9B9</string>
             </dict>
         </dict>
         <dict>
@@ -88,7 +88,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#616161</string>
+                <string>#B9B9B9</string>
             </dict>
         </dict>
         <dict>
@@ -99,7 +99,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#bebebe</string>
+                <string>#3C3C3C</string>
             </dict>
         </dict>
         <dict>
@@ -110,13 +110,13 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#616161</string>
+                <string>#B9B9B9</string>
                 <key>fontStyle</key>
                 <string></string>
             </dict>
         </dict>
 	</array>
 	<key>uuid</key>
-	<string>2250B6DC-C3BE-4BE8-B815-17B11D90BD6H</string>
+	<string>2250B6DC-C3BE-4BE8-B815-17B11D90BD6G</string>
 </dict>
 </plist>
