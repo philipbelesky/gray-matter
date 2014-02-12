@@ -22,11 +22,11 @@ To set a colour scheme based on the syntax of the current file, first open up a 
 
 Add in either:
 
-        "color_scheme": "Packages/Gray Matter/Gray Matter Light.tmTheme",
+        "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Light.tmTheme",
 
 Or:
 
-        "color_scheme": "Packages/Gray Matter/Gray Matter Dark.tmTheme",
+        "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Dark.tmTheme",
 
 While the syntax specific settings are open, here are another few options you may want to consider in order to better match a more traditional Markdown text editor:
 
