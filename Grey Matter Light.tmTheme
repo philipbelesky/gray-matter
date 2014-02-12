@@ -10,9 +10,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F2F2F2</string>
+				<string>#F5F5F5</string>
 				<key>caret</key>
-				<string>#3C3C3C</string>
+				<string>#20bbfc</string>
 				<key>foreground</key>
 				<string>#3C3C3C</string>
 				<key>invisibles</key>

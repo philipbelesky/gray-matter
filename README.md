@@ -1,17 +1,35 @@
-# Byworded.tmTheme
+# Grey Matter
 
-A theme that replicates the beautiful visual style of [Byword](http://bywordapp.com/). Unlike many standard themes, it offers full support for the Markdown syntax. Compatible with any text editor that will read **.tmTheme** files.
+A colour scheme for [Sublime Text](http://www.sublimetext.com) that takes design cues from popular minimalist Markdown text editors. Unlike many other colour schemes it properly highlights the basic Markdown syntax.
 
-Requires both the Markdown and MultiMarkdown bundles (Textmate) or packages (Sublime Text).
+## Installation and Configuration
 
-## Installation for Textmate
+Coming soon to Package Control! Until then download/clone and add to your Packages folder (*Preferences* > *Browse Packages* in the menu bar).
 
-Just double-click or open the **.tmTheme** file and TextMate will install it for you.
+Note that this colour scheme matches best with the visual style of the [Soda Theme](http://buymeasoda.github.com/soda-theme/). Also note that this it is only really optimised for writing in Markdown. So, its best to apply it only when editing Markdown files.
 
-## Installation for Sublime Text
+To set a colour scheme based on the syntax of the current file, first open up a Markdown file, and then in the menu bar open up the syntax-specific settings via *Preferences* > *Settings - More* > *Syntax Specific - User*. Add in either:
 
-Copy both **.tmTheme** files to ~/Library/Application Support/Sublime Text 2/Packages/User/
+        "color_scheme": "Packages/Grey Matter/Grey Matter Light.tmTheme",
 
-## Development
+Or:
 
-- Note that the syntax highlighting will not match that of Byword in all circumstances. This is due to the fact this theme is still a work in progress and because of some constraints in the Markdown/MultiMarkdown .tmLanguage files.
+        "color_scheme": "Packages/Grey Matter/Grey Matter Dark.tmTheme",
+
+While the syntax specific settings are open, here are another few options you may want to consider in order to better match a more traditional Markdown text editor:
+
+        "draw_centered": true,
+        "font_size": 18,
+        "gutter": false,
+        "highlight_line": false,
+        "line_numbers": true,
+        "line_padding_bottom": 4,
+        "line_padding_top": 4,
+        "rulers": [],
+        "tab_size": 4,
+        "word_wrap": true,
+        "wrap_width": 90
+
+## Acknowledgements
+
+This colour scheme is heavily drawn from the visual style of [Byword](http://bywordapp.com/) and [iA Writer](http://iawriter.com). I love using both programs, but also like to make using of Sublime's more advanced features while writing. And I'm a sucker for consistency.
