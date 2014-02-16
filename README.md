@@ -1,6 +1,6 @@
 # Gray Matter
 
-A colour scheme for [Sublime Text](http://www.sublimetext.com) that takes design cues from popular minimalist Markdown text editors. Unlike many other colour schemes it properly highlights the basic Markdown syntax.
+A colour scheme for [Sublime Text](http://www.sublimetext.com) that takes design cues from popular minimalist Markdown text editors. Unlike many other colour schemes it properly[^1] highlights the Markdown and MultiMarkdown syntax.
 
 ## Installation & Configuration
 
@@ -45,3 +45,5 @@ While the syntax specific settings are open, here are another few options you ma
 ### Acknowledgements
 
 This colour scheme is heavily drawn from the visual style of [Byword](http://bywordapp.com/) and [iA Writer](http://iawriter.com). I love both applications, but also like to make using of Sublime's more advanced features while writing. And I'm a sucker for consistency.
+
+[^1]: For the most part. It's a bit of a work in progress.
