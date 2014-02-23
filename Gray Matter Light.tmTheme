@@ -30,7 +30,7 @@ selection highlight             : B5D5FF > 565656
         <key>invisibles</key>
         <string>#BFBFBF</string> <!--- not sure what this is --->
         <key>lineHighlight</key>
-        <string>#303131</string>
+        <string>#EDEDED</string>
         <key>selection</key>
         <string>#B5D5FF</string> <!--- light blue highlight --->
       </dict>
@@ -67,10 +67,6 @@ selection highlight             : B5D5FF > 565656
             <string>#B9B9B9</string>
         </dict>
     </dict>
-
-
-
-
     <dict>
       <key>name</key>
       <string>Markdown Structural Elements</string>
@@ -245,7 +241,72 @@ selection highlight             : B5D5FF > 565656
     </dict>
 
 
+    <!-- third party plugins -->
+    <!-- my extensions -->
+    <dict>
+      <key>name</key>
+      <string>list bullets / tab items</string>
+      <key>scope</key>
+      <string>punctuation.list.list_syntax.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>background</key>
+          <string>#ff0000</string>
+       </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>code block highlight ticks</string>
+      <key>scope</key>
+      <string>punctuation.raw.block_syntax.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>background</key>
+          <string>#ff0000</string>
+       </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>bibliographic references and pandoc references and footnotes (both the ref and the definition)</string>
+      <key>scope</key>
+      <string>meta.references.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>background</key>
+          <string>#ff0000</string>
+       </dict>
+    </dict>
 
+
+    <!-- tests
+    <dict>
+      <key>name</key>
+      <string>list bullets and tab items</string>
+      <key>scope</key>
+      <string>markup.list.unnumbered.markdown, markup.list.numbered.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#ff0000</string>
+       </dict>
+    </dict>
+
+
+
+    <dict>
+      <key>name</key>
+      <string>list bullets and tab items</string>
+      <key>scope</key>
+      <string>punctuation.definition.list_item.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>background</key>
+          <string>#FFFFFF</string>
+       </dict>
+    </dict>
+
+
+ -->
 
   </array>
   <key>uuid</key>
