@@ -1,6 +1,6 @@
 # Gray Matter
 
-A colour scheme for [Sublime Text](http://www.sublimetext.com) that takes design cues from popular minimalist Markdown text editors.
+A colour scheme for [Sublime Text](http://www.sublimetext.com) that takes design cues from popular minimalist Markdown text editors. Supports highlighting for the Markdown, MultiMarkdown, and CriticMarkup languages.
 
 ## Installation & Configuration
 
@@ -28,6 +28,8 @@ Or:
 
         "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Dark.tmTheme",
 
+### Other Settings
+
 While the syntax specific settings are open, here are another few options you may want to consider in order to better match a more traditional Markdown text editor:
 
         "draw_centered": true,
@@ -41,6 +43,18 @@ While the syntax specific settings are open, here are another few options you ma
         "tab_size": 4,
         "word_wrap": true,
         "wrap_width": 90
+
+### Critic Markup Support
+
+You'll need to manually install the [Critic Markup package](http://criticmarkup.com/sublime-text.php) — it is not in package control.
+
+## Development
+
+Pull requests welcome. Notes:
+
+- [textmate language grammars](https://manual.macromates.com/en/language_grammars.html)
+- [textmate scope selectors](https://manual.macromates.com/en/scope_selectors.html)
+- Color Schemes (if active) should reload when the file is saved; if not run `[ v.settings().erase("color_scheme") for views in [ w.views() for w in sublime.windows() ] for v in views ]` in the console
 
 ## Changelog
 
