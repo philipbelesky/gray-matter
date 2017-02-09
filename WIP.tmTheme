@@ -1,0 +1,176 @@
+<!--
+--------------------------------------------------------------------------------
+WORKS IN PROGRESS
+--------------------------------------------------------------------------------
+-->
+   <dict>
+      <key>name</key>
+      <string>Markdown Structural Elements</string>
+      <!-- WIP Stuff --->
+      <key>scope</key>
+      <!--
+        // an entire unumbered list's text
+        markup.list.unnumbered.markdown meta.paragraph.list.markdown,
+
+        // first punctuation bit in a unumbered list
+        markup.list.unnumbered.markdown punctuation.definition.list_item.markdown,
+
+        // all text in a unumbered list
+        markup.list.numbered.markdown meta.paragraph.list.markdown,
+
+        // first list item number
+        markup.list.numbered.markdown punctuation.definition.list_item.markdown
+
+        // all text in a numbered list
+        markup.list.numbered.markdown
+        -->
+      <string>none</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ff0000</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>list bullets / tab items</string>
+      <key>scope</key>
+      <string>punctuation.list.list_syntax.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>background</key>
+          <string>#ff69b4</string>
+       </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>code block highlight ticks</string>
+      <key>scope</key>
+      <string>punctuation.raw.block_syntax.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>background</key>
+          <string>#ff69b4</string>
+       </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>bibliographic references and pandoc references and footnotes (both the ref and the definition)</string>
+      <key>scope</key>
+      <string>meta.references.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>background</key>
+          <string>#ff69b4</string>
+       </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>list bullets and tab items</string>
+      <key>scope</key>
+      <string>markup.list.unnumbered.markdown, markup.list.numbered.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#ff69b4</string>
+       </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>list bullets and tab items</string>
+      <key>scope</key>
+      <string>punctuation.definition.list_item.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>background</key>
+          <string>#ff69b4</string>
+       </dict>
+    </dict>
+<!--
+--------------------------------------------------------------------------------
+START CRITIC MARKUP (not working)
+--------------------------------------------------------------------------------
+-->
+    <dict>
+        <key>name</key>
+        <string>Addition</string>
+        <key>scope</key>
+        <string>string.addition</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string></string>
+            <key>foreground</key>
+            <string>#ff69b4</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>highlight</string>
+        <key>scope</key>
+        <string>string.highlight</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>italic</string>
+            <key>foreground</key>
+            <string>#ff69b4</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Deletion</string>
+        <key>scope</key>
+        <string>string.deletion</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string></string>
+            <key>foreground</key>
+            <string>#ff69b4</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>comment</string>
+        <key>scope</key>
+        <string>string.comment</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string></string>
+            <key>foreground</key>
+            <string>#ff69b4</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>blockcomment</string>
+        <key>scope</key>
+        <string>string.blockcomment</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string></string>
+            <key>foreground</key>
+            <string>#ff69b4</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>substitution</string>
+        <key>scope</key>
+        <string>string.substitution</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string></string>
+            <key>foreground</key>
+            <string>#ff69b4</string>
+        </dict>
+    </dict>
+<!--
+--------------------------------------------------------------------------------
+END CRITIC MARKUP
+--------------------------------------------------------------------------------
+-->

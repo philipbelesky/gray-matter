@@ -1,6 +1,12 @@
 # Gray Matter
 
-A colour scheme for [Sublime Text](http://www.sublimetext.com) that takes design cues from popular minimalist Markdown text editors. Supports highlighting for the Markdown, MultiMarkdown, and CriticMarkup languages.
+A pair of colour schemes for Sublime Text, Visual Studio Code, and Atom that take aesthetic cues from popular minimalist text editors and aims to minimise the visual impact of most of the markdown punctuations. It also attempts to support the full range of Markdown syntax ranging from Markdown, MultiMarkdown, Github Flavoured Markdown, and Pandoc Markdown.
+
+## Screenshots
+
+#### Dark
+
+#### Light
 
 ## Installation & Configuration
 
@@ -52,9 +58,10 @@ You'll need to manually install the [Critic Markup package](http://criticmarkup.
 
 Pull requests welcome. Notes:
 
-- [textmate language grammars](https://manual.macromates.com/en/language_grammars.html)
-- [textmate scope selectors](https://manual.macromates.com/en/scope_selectors.html)
+- [Textmate language grammars](https://manual.macromates.com/en/language_grammars.html)
+- [Textmate scope selectors](https://manual.macromates.com/en/scope_selectors.html)
 - Color Schemes (if active) should reload when the file is saved; if not run `[ v.settings().erase("color_scheme") for views in [ w.views() for w in sublime.windows() ] for v in views ]` in the console
+- The [Scope Hunter](https://github.com/facelessuser/ScopeHunter) plugin
 
 ## Changelog
 
