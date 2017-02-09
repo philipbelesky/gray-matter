@@ -2,16 +2,13 @@
 
 A pair of colour schemes for Sublime Text, Visual Studio Code, and Atom that take aesthetic cues from popular minimalist text editors and aims to minimise the visual impact of most of the markdown punctuations. It also attempts to support the full range of Markdown syntax ranging from Markdown, MultiMarkdown, Github Flavoured Markdown, and Pandoc Markdown.
 
-## Screenshots
+#### Light Theme
 
-#### Light
+![](/light.jpg)
 
-![](/light.png)
+#### Dark Theme
 
-#### Dark
-
-![](/dark.png)
-
+![](/dark.jpg)
 
 ## Installation & Configuration
 
