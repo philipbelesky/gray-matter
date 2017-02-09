@@ -1,11 +1,11 @@
 ---
-date:     3012-08-23 09:14:00 +1000
+date:     2012-08-23 09:14:00 +1000
 layout:   project
-title:    Counterpoints 1: raxworth
-tags:     [Landscape Architecture, Computational Design, Landscape Urbanism, The Design Process]
+title:    Generic Title
+tags:     [Landscape Architecture]
 assets:   counterpoints-1
-credits:  Thanks to Julian...
-excerpt:  tdtdtdtd
+credits:  Thanks to...
+excerpt:  This is about...
 ---
 
 # Heading
