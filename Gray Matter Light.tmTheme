@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
-Key colours:
 
-Standard text colour            : 3C3C3C > bebebe
-Light gray for syntax           : B9B9B9 > 616161
+Key colours                     : Light   > Dark
 
-Base background                 : F5F5F5 > 1a191a
-Light background highlight      : EDEDED > 222122
+Standard text                   : #3C3C3C > #BEBEBE
+Muted text  (for syntax)        : #B9B9B9 > #616161
 
-selection highlight             : B5D5FF > 565656
+Base background                 : #F5F5F5 > #1A191A
+Light background highlight      : #EDEDED > #222122
 
- -->
+Selection highlight             : #B5D5FF > #565656
+
+-->
 <plist version="1.0">
 <dict>
   <key>name</key>
@@ -239,8 +240,6 @@ selection highlight             : B5D5FF > 565656
             <string>#EDEDED</string>
         </dict>
     </dict>
-
-
     <!-- third party plugins -->
     <!-- my extensions -->
     <dict>
@@ -276,8 +275,6 @@ selection highlight             : B5D5FF > 565656
           <string>#ff0000</string>
        </dict>
     </dict>
-
-
     <!-- tests
     <dict>
       <key>name</key>
@@ -290,9 +287,6 @@ selection highlight             : B5D5FF > 565656
           <string>#ff0000</string>
        </dict>
     </dict>
-
-
-
     <dict>
       <key>name</key>
       <string>list bullets and tab items</string>
@@ -304,10 +298,7 @@ selection highlight             : B5D5FF > 565656
           <string>#FFFFFF</string>
        </dict>
     </dict>
-
-
- -->
-
+    -->
   </array>
   <key>uuid</key>
   <string>2250B6DC-C3BE-4BE8-B815-17B11D90BD6G</string>
