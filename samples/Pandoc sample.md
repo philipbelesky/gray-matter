@@ -14,13 +14,13 @@ This is an [Internal Link](#introduction).
 
 ### Footnotes
 
-Here is a footnote reference,[^1] and another.[^longnote]
+Here is a footnote reference,[^1] and another.[^longnote] TODO: square brackets and inline text should be gray here.
 
 Here is an inline note.^[Inlines notes are easier to write, since
 you don't have to pick an identifier and move down to type the
-note.]
+note.] TODO: square brackets and inline text should be gray here.
 
-[^1]: Here is the footnote.
+[^1]: Here is the footnote. TODO: square brackets and in-square text should be gray here.
 
 [^longnote]: Here's one with multiple blocks.
 
@@ -29,7 +29,7 @@ belong to the previous footnote.
 
 ### Citations
 
-Blah blah [see @doe99, pp. 33-35; also @smith04, ch. 1].
+Blah blah [see @doe99, pp. 33-35; also @smith04, ch. 1].  TODO: square brackets and in-square text should be gray here.
 
 Blah blah [@doe99, pp. 33-35, 38-39 and *passim*].
 

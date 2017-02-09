@@ -14,11 +14,23 @@ inline linebreak
 
 # A H1
 
+# This is an H1 #
+
+This is an H1
+=============
+
 ## A H2
+
+## This is an H2 ##
+
+This is an H2
+-------------
 
 ### A H3
 
 ### A H3 with *italics* and **bold**
+
+### A H3 with some flaws ######
 
 ### [A H3 that is a link](http://daringfireball.net)
 
@@ -31,6 +43,8 @@ inline linebreak
 ###### A H6
 
 ### Lists
+
+TODO: None of the list characters seem to work
 
 - Note +, -, and * should be supported
 - Testing _character_ **types** [here]()
@@ -77,7 +91,7 @@ inline linebreak
 
 ### Blockqotes
 
-> This is a blockquote.
+> This is a blockquote. TODO: The blockquote arrow should be gray
 
 .
 
@@ -108,7 +122,7 @@ inline linebreak
 >
 >     return shell_exec("echo $input | $markdown_script");
 
-### Rulers
+### Rulers/Rules
 
 * * *
 
@@ -120,7 +134,19 @@ inline linebreak
 
 ---------------------------------------
 
+---------------
+
 ### Code
+
+This is a normal paragraph:
+
+    This is a code block.
+
+Here is an example of AppleScript:
+
+  tell application "Foo"
+      beep
+  end tell
 
 This is inline code: `some code here`.
 
@@ -134,7 +160,7 @@ public class HelloWorld {
    public static void main(String[] args) {
        System.out.println("Hello, world!");
    }
-} 
+}
 ```
 
 ~~~
@@ -155,6 +181,7 @@ public class HelloWorld {
 ### Embedded HTML
 
 <h1><span class="test">Test</span></h1>
+<img src="test" alt="test" />
 
 ### Literals
 
