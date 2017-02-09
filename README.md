@@ -1,16 +1,14 @@
 # Gray Matter
 
-A colour scheme for [Sublime Text](http://www.sublimetext.com) that takes design cues from popular minimalist Markdown text editors. Unlike many other colour schemes it properly highlights the basic Markdown syntax.
+A colour scheme for [Sublime Text](http://www.sublimetext.com) that takes design cues from popular minimalist Markdown text editors.
 
 ## Installation & Configuration
 
 ### With Package Control
 
-Coming soon!
-
-<!-- 1. Make sure that [Package Control](https://sublime.wbond.net/installation) is already installed
+1. Make sure that [Package Control](https://sublime.wbond.net/installation) is already installed
 2. Choose *Install Package* from the Command Palette — Ctrl+Shift+P on Windows/Linux and ⇧⌘P on OS X
-3. Search for *Gray Matter Color Schemes* and hit Enter -->
+3. Search for *Gray Matter Color Schemes* and hit Enter
 
 ### Manually
 
@@ -24,11 +22,11 @@ To set a colour scheme based on the syntax of the current file, first open up a 
 
 Add in either:
 
-        "color_scheme": "Packages/Gray Matter/Gray Matter Light.tmTheme",
+        "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Light.tmTheme",
 
 Or:
 
-        "color_scheme": "Packages/Gray Matter/Gray Matter Dark.tmTheme",
+        "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Dark.tmTheme",
 
 While the syntax specific settings are open, here are another few options you may want to consider in order to better match a more traditional Markdown text editor:
 
