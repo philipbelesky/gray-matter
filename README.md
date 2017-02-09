@@ -4,9 +4,14 @@ A pair of colour schemes for Sublime Text, Visual Studio Code, and Atom that tak
 
 ## Screenshots
 
+#### Light
+
+![](/light.png)
+
 #### Dark
 
-#### Light
+![](/dark.png)
+
 
 ## Installation & Configuration
 

@@ -10,8 +10,8 @@ Muted text  (for syntax)        : #B9B9B9 > #616161
 Base background                 : #F5F5F5 > #1A191A
 Light background highlight      : #EDEDED > #222122
 
-Suggested cursor colour         : #3AC2FB
-Selection highlight             : #B5D5FF > #565656
+Suggested cursor colour         : #29BEEA
+Selection highlight             : #C3E8F3 > #565656
 (must be less dull than cursor)
 
 -->
@@ -27,7 +27,7 @@ Selection highlight             : #B5D5FF > #565656
         <key>background</key>
         <string>#F5F5F5</string>
         <key>caret</key>
-        <string>#20bbfc</string>
+        <string>#29BEEA</string>
         <key>foreground</key>
         <string>#3C3C3C</string>
         <key>invisibles</key>
@@ -35,15 +35,15 @@ Selection highlight             : #B5D5FF > #565656
         <key>lineHighlight</key>
         <string>#EDEDED</string>
         <key>selection</key>
-        <string>#B5D5FF</string><!--- A light blue highlight --->
+        <string>#C3E8F3</string><!--- A light blue highlight --->
         <key>selectionBorder</key>
-        <string>#B5D5FF</string><!--- A slightly darker blue highlight --->
+        <string>#C3E8F3</string>
         <key>inactiveSelection</key>
-        <string>#B5D5FF</string><!-- Selection color when the app is not in Focus -->
+        <string>#C3E8F3</string><!-- Selection color when the app is not in Focus -->
         <key>findHighlight</key>
-        <string>#B5D5FF</string><!-- Block background for when searching for a term -->
+        <string>#C3E8F3</string><!-- Block background for when searching for a term -->
         <key>findHighlightForeground</key>
-        <string>#F5F5F5</string><!-- Text color for when searching for a term -->
+        <string>#3C3C3C</string><!-- Text color for when searching for a term -->
         <key>shadow</key>
         <string>#42CD23</string>
         <key>shadowWidth</key>
@@ -67,7 +67,7 @@ Selection highlight             : #B5D5FF > #565656
     <dict>
         <key>name</key>
         <string>Markdown Structural Elements</string>
-        <!-- Bold/italics marks, heading marks --->
+        <!-- Bold/italics marks, heading marks, list indents --->
         <key>scope</key>
         <string>punctuation.definition.constant.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.heading.markdown</string>
         <key>settings</key>
@@ -143,7 +143,7 @@ Selection highlight             : #B5D5FF > #565656
       <string>Markdown Link Grammar</string>
       <!-- the square brackets surroundings links/refs/imgs -->
       <key>scope</key>
-      <string>punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.string.begin.markdown, unctuation.definition.string.end.markdown, punctuation.definition.link.markdown, punctuation.definition.metadata.markdown</string>
+      <string>punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown, punctuation.definition.metadata.markdown,punctuation.definition.blockquote.markdown</string>
       <key>settings</key>
       <dict>
           <key>foreground</key>
@@ -155,12 +155,23 @@ Selection highlight             : #B5D5FF > #565656
       <string>Markdown Link Reference</string>
       <!-- the round brackets around links, and the second bit of text/title -->
       <key>scope</key>
-      <string>punctuation.definition.metadata.markdown,string.other.link.title.markdown,meta.link.inline.markdown,meta.link.reference.markdown,string.other.link.description.title.markdown,meta.link.reference.literal.markdown
-      </string>
+      <string>punctuation.definition.metadata.markdown,string.other.link.title.markdown,meta.link.inline.markdown,meta.link.reference.markdown,string.other.link.description.title.markdown,meta.link.reference.literal.markdown</string>
       <key>settings</key>
       <dict>
           <key>foreground</key>
-          <string>#B9B9B9</string><!-- #B9B9B9 -->
+          <string>#B9B9B9</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Image</string>
+      <!--  -->
+      <key>scope</key>
+      <string>meta.image.inline.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#B9B9B9</string>
       </dict>
     </dict>
     <dict>
@@ -230,6 +241,23 @@ MULTIMARKDOWN
         <dict>
             <key>foreground</key>
             <string>#B9B9B9</string>
+        </dict>
+    </dict>
+<!--
+--------------------------------------------------------------------------------
+OVERRIDES
+--------------------------------------------------------------------------------
+-->
+    <dict>
+        <key>name</key>
+        <string>Markdown Meta</string>
+        <!-- Earlier we set all of the image scope to gray (so that ! would be colored); here we reset the title to be normal again -->
+        <key>scope</key>
+        <string>string.other.link.description.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#3C3C3C</string>
         </dict>
     </dict>
   </array>
