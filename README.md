@@ -46,4 +46,4 @@ While the syntax specific settings are open, here are another few options you ma
 
 ### Acknowledgements
 
-This colour scheme is heavily drawn from the visual style of [Byword](http://bywordapp.com/) and [iA Writer](http://iawriter.com). I love using both programs, but also like to make using of Sublime's more advanced features while writing. And I'm a sucker for consistency.
+This colour scheme is heavily drawn from the visual style of [Byword](http://bywordapp.com/) and [iA Writer](http://iawriter.com). I love both applications, but also like to make using of Sublime's more advanced features while writing. And I'm a sucker for consistency.
