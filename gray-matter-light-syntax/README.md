@@ -4,11 +4,11 @@ A pair of colour schemes for writing Markdown in Sublime Text, Visual Studio Cod
 
 #### Light Theme
 
-![](/light.jpg)
+![Light Theme](https://github.com/philipbelesky/gray-matter/raw/develop/light.jpg)
 
 #### Dark Theme
 
-![](/dark.jpg)
+![Dark Theme](https://github.com/philipbelesky/gray-matter/raw/develop/dark.jpg)
 
 ## Installation & Configuration
 

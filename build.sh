@@ -29,3 +29,9 @@ cp -f "README.md"       "./gray-matter-light-syntax/README.md"
 cp -f "README.md"       "./gray-matter-dark-syntax/README.md"
 
 rm "Gray Matter Base.tmTheme"
+
+#!/bin/bash
+mkdir ~/.vscode/extensions/theme-graymatter
+git archive HEAD | tar -x -C ~/.vscode/extensions/theme-graymatter
+cp -R ./gray-matter-light-syntax/  ~/.atom/packages/gray-matter-light-syntax
+cp -R ./gray-matter-dark-syntax/  ~/.atom/packages/gray-matter-dark-syntax
