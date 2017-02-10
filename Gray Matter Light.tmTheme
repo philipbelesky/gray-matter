@@ -24,30 +24,32 @@ Selection highlight             : #C3E8F3 > #373737
     <dict>
       <key>settings</key>
       <dict>
-        <key>background</key>
+        <key>foreground</key><!-- Default foreground color for the view. Affects file contents, the gutter, rulers and guides. -->
+        <string>#3C3C3C</string>
+        <key>background</key><!-- Default background color of the view (and gutter). -->
         <string>#F5F5F5</string>
+        <key>invisibles</key><!-- Not implemented? -->
+        <string>#B9B9B9</string>
         <key>caret</key>
         <string>#29BEEA</string>
-        <key>foreground</key>
-        <string>#3C3C3C</string>
-        <key>invisibles</key>
-        <string>#BFBFBF</string><!--- Not sure what this is --->
         <key>lineHighlight</key>
         <string>#EDEDED</string>
         <key>selection</key>
         <string>#C3E8F3</string><!--- A light blue highlight --->
         <key>selectionBorder</key>
         <string>#C3E8F3</string>
-        <key>inactiveSelection</key>
-        <string>#C3E8F3</string><!-- Selection color when the app is not in Focus -->
-        <key>findHighlight</key>
-        <string>#C3E8F3</string><!-- Block background for when searching for a term -->
-        <key>findHighlightForeground</key>
-        <string>#3C3C3C</string><!-- Text color for when searching for a term -->
-        <key>shadow</key>
-        <string>#42CD23</string>
-        <key>shadowWidth</key>
-        <string>6</string>
+        <key>inactiveSelection</key><!-- Selection color when the app is not in Focus -->
+        <string>#C3E8F3</string>
+        <key>findHighlight</key><!-- Block background for when searching for a term -->
+        <string>#C3E8F3</string>
+        <key>findHighlightForeground</key><!-- Text color for when searching for a term -->
+        <string>#3C3C3C</string>
+        <key>gutter</key>
+        <string>#F5F5F5</string>
+        <key>gutterForeground</key>
+        <string>#B9B9B9</string>
+        <key>guide</key><!-- The sidebar for parts that can be expanded/contracted -->
+        <string>#F5F5F5</string><!-- Hiding it (blend into background) -->
       </dict>
     </dict>
     <dict>
@@ -81,7 +83,7 @@ Selection highlight             : #C3E8F3 > #373737
       <string>Markdown Heading Text</string>
       <!-- Makes heading elements text bolder/darker --->
       <key>scope</key>
-      <string>entity</string>
+      <string>markup.heading.markdown</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -228,6 +230,22 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
 <!--
 --------------------------------------------------------------------------------
+GITGUTTER
+--------------------------------------------------------------------------------
+-->
+    <dict>
+      <key>name</key>
+      <string>GitGutter (All)</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter,markup.inserted.git_gutter,markup.changed.git_guttermmarkup.ignored.git_gutter,markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B9B9B9</string>
+      </dict>
+    </dict>
+<!--
+--------------------------------------------------------------------------------
 MULTIMARKDOWN
 --------------------------------------------------------------------------------
 -->
@@ -239,6 +257,140 @@ MULTIMARKDOWN
         <string>meta.header.multimarkdown,keyword.other.multimarkdown,string.unquoted.multimarkdown,punctuation.separator.key-value.multimarkdown</string>
         <key>settings</key>
         <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+<!--
+--------------------------------------------------------------------------------
+PANDOC ACADEMIC
+--------------------------------------------------------------------------------
+-->
+    <dict>
+        <key>name</key>
+        <string>Inline Footnote</string>
+        <!-- IE All of "[^1]"-->
+        <key>scope</key>
+        <string>footnote.delim.pandoc</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Inline Citation</string>
+        <!-- IE All of "[@smith04; @doe99]"-->
+        <key>scope</key>
+        <string>citation.bracket.pandoc</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Footnote Reference</string>
+        <!-- IE All of "[^1]:" -->
+        <key>scope</key>
+        <string>footnote.num.pandoc</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Bock Quote</string>
+        <!-- IE All of "[^1]:" -->
+        <key>scope</key>
+        <string>quote.pandoc</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>italic</string>
+        </dict>
+    </dict>
+<!--
+--------------------------------------------------------------------------------
+CRITIC MARKUP
+--------------------------------------------------------------------------------
+-->
+    <dict>
+        <key>name</key>
+        <string>Addition</string>
+        <key>scope</key>
+        <string>string.addition</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>bold</string>
+            <key>foreground</key>
+            <string>#3C3C3C</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Deletion</string>
+        <key>scope</key>
+        <string>string.deletion</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>bold</string>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>substitution</string>
+        <key>scope</key>
+        <string>string.substitution</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>bold</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>highlight</string>
+        <key>scope</key>
+        <string>string.highlight</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string></string>
+            <key>background</key>
+            <string>#EDEDED</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>comment</string>
+        <key>scope</key>
+        <string>string.comment</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>italic</string>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>blockcomment</string>
+        <key>scope</key>
+        <string>string.blockcomment</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>italic</string>
             <key>foreground</key>
             <string>#B9B9B9</string>
         </dict>
@@ -260,6 +412,11 @@ OVERRIDES
             <string>#3C3C3C</string>
         </dict>
     </dict>
+<!--
+--------------------------------------------------------------------------------
+END
+--------------------------------------------------------------------------------
+-->
   </array>
   <key>uuid</key>
   <string>2250B6DC-C3BE-4BE8-B815-17B11D90BD6G</string>

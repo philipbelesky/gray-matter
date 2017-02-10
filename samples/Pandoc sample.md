@@ -10,7 +10,7 @@ This ~~is deleted text.~~
 
 H~2~O is a subscript example.  2^10^ is a superscript example.
 
-This is an [Internal Link](#introduction).
+This is an [Internal Link](#intrduction).
 
 ### Footnotes
 
