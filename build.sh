@@ -11,3 +11,6 @@ perl -pi -e 's/EDEDED/222122/g' Gray\ Matter\ Dark.tmTheme
 perl -pi -e 's/C3E8F3/373737/g' Gray\ Matter\ Dark.tmTheme
 
 perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark.tmTheme
+
+apm init --theme my-theme --convert "./Gray Matter Light.tmTheme"
+apm init --theme my-theme --convert "./Gray Matter Dark.tmTheme"
