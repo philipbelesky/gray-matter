@@ -1,0 +1,162 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: #222122;
+}
+
+.comment, .comment .punctuation {
+  color: #616161;
+}
+
+.punctuation.definition.constant.markdown, .punctuation.definition.bold.markdown, .punctuation.definition.italic.markdown, .punctuation.definition.heading.markdown {
+  color: #616161;
+}
+
+.markup.heading.markdown {
+  font-weight: bold;
+  color: #BEBEBE;
+}
+
+.markup.italic.markdown {
+  font-style: italic;
+}
+
+.markup.bold.markdown {
+  font-weight: bold;
+}
+
+.markup.quote.markdown {
+  font-style: italic;
+}
+
+.meta.separator.markdown {
+  color: #616161;
+}
+
+.punctuation.definition.constant.begin.markdown, .punctuation.definition.constant.end.markdown, .punctuation.definition.string.begin.markdown, .punctuation.definition.string.end.markdown, .punctuation.definition.link.markdown, .punctuation.definition.metadata.markdown, .punctuation.definition.blockquote.markdown {
+  color: #616161;
+}
+
+.punctuation.definition.metadata.markdown, .string.other.link.title.markdown, .meta.link.inline.markdown, .meta.link.reference.markdown, .string.other.link.description.title.markdown, .meta.link.reference.literal.markdown {
+  color: #616161;
+}
+
+.meta.image.inline.markdown {
+  color: #616161;
+}
+
+.markup.underline.link.markdown {
+  color: #616161;
+}
+
+.markup.underline {
+  color: #616161;
+}
+
+.markup.raw.block.markdown, .markup.raw.inline.markdown {
+  background-color: #222122;
+}
+
+.markup.deleted.git_gutter, .markup.inserted.git_gutter, .markup.changed.git_guttermmarkup.ignored.git_gutter, .markup.untracked.git_gutter {
+  color: #616161;
+}
+
+.meta.header.multimarkdown, .keyword.other.multimarkdown, .string.unquoted.multimarkdown, .punctuation.separator.key-value.multimarkdown {
+  color: #616161;
+}
+
+.footnote.delim.pandoc {
+  color: #616161;
+}
+
+.citation.bracket.pandoc {
+  color: #616161;
+}
+
+.footnote.num.pandoc {
+  color: #616161;
+}
+
+.quote.pandoc {
+  font-style: italic;
+}
+
+.string.addition {
+  font-weight: bold;
+  color: #BEBEBE;
+}
+
+.string.deletion {
+  font-weight: bold;
+  color: #616161;
+}
+
+.string.substitution {
+  font-weight: bold;
+}
+
+.string.highlight {
+  background-color: #222122;
+}
+
+.string.comment {
+  font-style: italic;
+  color: #616161;
+}
+
+.string.blockcomment {
+  font-style: italic;
+  color: #616161;
+}
+
+.string.other.link.description.markdown {
+  color: #BEBEBE;
+}

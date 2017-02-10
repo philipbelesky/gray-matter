@@ -1,0 +1,15 @@
+{
+  "name": "gray-matter-dark-syntax",
+  "theme": "syntax",
+  "version": "1.2.0",
+  "description": "A syntax theme for markdown that takes aesthetic cues from popular minimalist writing apps and aims to minimise the visual impact of most of the markdown punctuation",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/philipbelesky/gray-matter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
