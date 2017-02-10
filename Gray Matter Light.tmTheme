@@ -28,28 +28,59 @@ Selection highlight             : #C3E8F3 > #373737
         <string>#3C3C3C</string>
         <key>background</key><!-- Default background color of the view (and gutter). -->
         <string>#F5F5F5</string>
+
         <key>invisibles</key><!-- Not implemented? -->
         <string>#B9B9B9</string>
         <key>caret</key>
         <string>#29BEEA</string>
+
         <key>lineHighlight</key>
         <string>#EDEDED</string>
+        <key>rangeHighlight</key><!-- VSC: Background color of range highlighted, like by Quick open and Find features. -->
+        <string>#EDEDED</string>
+        <key>hoverHighlight</key><!-- VSC: Background color when hovered. -->
+        <string>#EDEDED</string>
+        <key>referenceHighlight</key><!-- VSC: Background color when finding all references. -->
+        <string>#EDEDED</string>
+
         <key>selection</key>
         <string>#C3E8F3</string><!--- A light blue highlight --->
         <key>selectionBorder</key>
         <string>#C3E8F3</string>
         <key>inactiveSelection</key><!-- Selection color when the app is not in Focus -->
         <string>#C3E8F3</string>
+        <key>selectionHighlight</key><!-- VSC: Background color of regions highlighted while selecting -->
+        <string>#C3E8F3</string>
+
         <key>findHighlight</key><!-- Block background for when searching for a term -->
         <string>#C3E8F3</string>
         <key>findHighlightForeground</key><!-- Text color for when searching for a term -->
         <string>#3C3C3C</string>
+        <key>findRangeHighlight</key><!-- VSC: Background color of regions selected for search -->
+        <string>#29BEEA</string>
+        <key>findMatchHighlight</key><!-- VSC: Background color of regions matching the search -->
+        <string>#C3E8F3</string>
+        <key>currentFindMatchHighlight</key><!-- VSC: Background color of the current region matching the search -->
+        <string>#C3E8F3</string>
+
+        <key>wordHighlight</key><!-- VSC: ?? -->
+        <string>#C3E8F3</string>
+        <key>wordHighlightStrong</key><!-- VSC: ?? -->
+        <string>#29BEEA</string>
+
+        <key>activeLinkForeground</key><!-- VSC: Color of active links. -->
+        <string>#29BEEA</string>
+        <key>gotoDefinitionLinkForeground</key><!-- VSC: ?? -->
+        <string>#29BEEA</string>
+
         <key>gutter</key>
         <string>#F5F5F5</string>
         <key>gutterForeground</key>
         <string>#B9B9B9</string>
+
         <key>guide</key><!-- The sidebar for parts that can be expanded/contracted -->
         <string>#F5F5F5</string><!-- Hiding it (blend into background) -->
+
       </dict>
     </dict>
     <dict>
