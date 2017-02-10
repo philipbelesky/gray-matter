@@ -19,6 +19,8 @@ Selection highlight             : #C3E8F3 > #373737
 <dict>
   <key>name</key>
   <string>Gray Matter Light</string>
+  <key>comment</key>
+  <string>https://github.com/philipbelesky/gray-matter</string>
   <key>settings</key>
   <array>
     <dict>

@@ -19,43 +19,76 @@ Selection highlight             : #373737 > #373737
 <dict>
   <key>name</key>
   <string>Gray Matter Dark</string>
+  <key>comment</key>
+  <string>https://github.com/philipbelesky/gray-matter</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
-        <key>foreground</key><!-- Default foreground color for the view. Affects file contents, the gutter, rulers and guides. -->
+        <key>foreground</key>
         <string>#BEBEBE</string>
-        <key>background</key><!-- Default background color of the view (and gutter). -->
+        <key>background</key>
         <string>#1A191A</string>
-        <key>invisibles</key><!-- Not implemented? -->
+
+        <key>invisibles</key>
         <string>#616161</string>
         <key>caret</key>
         <string>#29BEEA</string>
+
         <key>lineHighlight</key>
         <string>#222122</string>
+        <key>rangeHighlight</key>
+        <string>#222122</string>
+        <key>hoverHighlight</key>
+        <string>#222122</string>
+        <key>referenceHighlight</key>
+        <string>#222122</string>
+
         <key>selection</key>
-        <string>#373737</string><!--- A light blue highlight --->
+        <string>#373737</string>
         <key>selectionBorder</key>
         <string>#373737</string>
-        <key>inactiveSelection</key><!-- Selection color when the app is not in Focus -->
+        <key>inactiveSelection</key>
         <string>#373737</string>
-        <key>findHighlight</key><!-- Block background for when searching for a term -->
+        <key>selectionHighlight</key>
         <string>#373737</string>
-        <key>findHighlightForeground</key><!-- Text color for when searching for a term -->
+
+        <key>findHighlight</key>
+        <string>#373737</string>
+        <key>findHighlightForeground</key>
         <string>#BEBEBE</string>
+        <key>findRangeHighlight</key>
+        <string>#29BEEA</string>
+        <key>findMatchHighlight</key>
+        <string>#373737</string>
+        <key>currentFindMatchHighlight</key>
+        <string>#373737</string>
+
+        <key>wordHighlight</key>
+        <string>#373737</string>
+        <key>wordHighlightStrong</key>
+        <string>#29BEEA</string>
+
+        <key>activeLinkForeground</key>
+        <string>#29BEEA</string>
+        <key>gotoDefinitionLinkForeground</key>
+        <string>#29BEEA</string>
+
         <key>gutter</key>
         <string>#1A191A</string>
         <key>gutterForeground</key>
         <string>#616161</string>
-        <key>guide</key><!-- The sidebar for parts that can be expanded/contracted -->
-        <string>#1A191A</string><!-- Hiding it (blend into background) -->
+
+        <key>guide</key>
+        <string>#1A191A</string>
+
       </dict>
     </dict>
     <dict>
         <key>name</key>
         <string>Comments</string>
-        <!-- IE this comment -->
+        
         <key>scope</key>
         <string>comment, comment punctuation</string>
         <key>settings</key>
@@ -69,7 +102,7 @@ Selection highlight             : #373737 > #373737
     <dict>
         <key>name</key>
         <string>Markdown Structural Elements</string>
-        <!-- Bold/italics marks, heading marks, list indents --->
+        
         <key>scope</key>
         <string>punctuation.definition.constant.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.heading.markdown</string>
         <key>settings</key>
@@ -81,7 +114,7 @@ Selection highlight             : #373737 > #373737
      <dict>
       <key>name</key>
       <string>Markdown Heading Text</string>
-      <!-- Makes heading elements text bolder/darker --->
+      
       <key>scope</key>
       <string>markup.heading.markdown</string>
       <key>settings</key>
@@ -89,13 +122,13 @@ Selection highlight             : #373737 > #373737
         <key>fontStyle</key>
         <string>bold</string>
         <key>foreground</key>
-        <string>#BEBEBE</string><!-- BEBEBE -->
+        <string>#BEBEBE</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Markdown Italic Text</string>
-      <!-- Makes italics actually italic --->
+      
       <key>scope</key>
       <string>markup.italic.markdown</string>
       <key>settings</key>
@@ -107,7 +140,7 @@ Selection highlight             : #373737 > #373737
     <dict>
       <key>name</key>
       <string>Markdown Bold Text</string>
-      <!-- Makes bold actually bold --->
+      
       <key>scope</key>
       <string>markup.bold.markdown</string>
       <key>settings</key>
@@ -119,7 +152,7 @@ Selection highlight             : #373737 > #373737
     <dict>
       <key>name</key>
       <string>Blockquote</string>
-      <!-- Makes blockquotes italic --->
+      
       <key>scope</key>
       <string>markup.quote.markdown</string>
       <key>settings</key>
@@ -131,7 +164,7 @@ Selection highlight             : #373737 > #373737
     <dict>
         <key>name</key>
         <string>Markdown separator</string>
-        <!-- Horizontal Rules -->
+        
         <key>scope</key>
         <string>meta.separator.markdown</string>
         <key>settings</key>
@@ -143,7 +176,7 @@ Selection highlight             : #373737 > #373737
     <dict>
       <key>name</key>
       <string>Markdown Link Grammar</string>
-      <!-- the square brackets surroundings links/refs/imgs -->
+      
       <key>scope</key>
       <string>punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown, punctuation.definition.metadata.markdown,punctuation.definition.blockquote.markdown</string>
       <key>settings</key>
@@ -155,7 +188,7 @@ Selection highlight             : #373737 > #373737
     <dict>
       <key>name</key>
       <string>Markdown Link Reference</string>
-      <!-- the round brackets around links, and the second bit of text/title -->
+      
       <key>scope</key>
       <string>punctuation.definition.metadata.markdown,string.other.link.title.markdown,meta.link.inline.markdown,meta.link.reference.markdown,string.other.link.description.title.markdown,meta.link.reference.literal.markdown</string>
       <key>settings</key>
@@ -167,7 +200,7 @@ Selection highlight             : #373737 > #373737
     <dict>
       <key>name</key>
       <string>Markdown Image</string>
-      <!--  -->
+      
       <key>scope</key>
       <string>meta.image.inline.markdown</string>
       <key>settings</key>
@@ -195,19 +228,19 @@ Selection highlight             : #373737 > #373737
     <dict>
       <key>name</key>
       <string>Markdown Link URL Text</string>
-      <!-- Inline URLs and those in links/reference elemnts -->
+      
       <key>scope</key>
       <string>markup.underline.link.markdown</string>
       <key>settings</key>
       <dict>
           <key>foreground</key>
-          <string>#616161</string><!-- #616161 -->
+          <string>#616161</string>
       </dict>
     </dict>
     <dict>
         <key>name</key>
         <string>Markup: Underline</string>
-        <!-- Matchs url/path in images -->
+        
         <key>scope</key>
         <string>markup.underline</string>
         <key>settings</key>
@@ -219,7 +252,7 @@ Selection highlight             : #373737 > #373737
     <dict>
         <key>name</key>
         <string>Markdown separator</string>
-        <!-- code blocks and inline code-->
+        
         <key>scope</key>
         <string>markup.raw.block.markdown,markup.raw.inline.markdown</string>
         <key>settings</key>
@@ -252,7 +285,7 @@ MULTIMARKDOWN
     <dict>
         <key>name</key>
         <string>Markdown Meta</string>
-        <!-- A document's title block -->
+        
         <key>scope</key>
         <string>meta.header.multimarkdown,keyword.other.multimarkdown,string.unquoted.multimarkdown,punctuation.separator.key-value.multimarkdown</string>
         <key>settings</key>
@@ -269,7 +302,7 @@ PANDOC ACADEMIC
     <dict>
         <key>name</key>
         <string>Inline Footnote</string>
-        <!-- IE All of "[^1]"-->
+        
         <key>scope</key>
         <string>footnote.delim.pandoc</string>
         <key>settings</key>
@@ -281,7 +314,7 @@ PANDOC ACADEMIC
     <dict>
         <key>name</key>
         <string>Inline Citation</string>
-        <!-- IE All of "[@smith04; @doe99]"-->
+        
         <key>scope</key>
         <string>citation.bracket.pandoc</string>
         <key>settings</key>
@@ -293,7 +326,7 @@ PANDOC ACADEMIC
     <dict>
         <key>name</key>
         <string>Footnote Reference</string>
-        <!-- IE All of "[^1]:" -->
+        
         <key>scope</key>
         <string>footnote.num.pandoc</string>
         <key>settings</key>
@@ -305,7 +338,7 @@ PANDOC ACADEMIC
     <dict>
         <key>name</key>
         <string>Bock Quote</string>
-        <!-- IE All of "[^1]:" -->
+        
         <key>scope</key>
         <string>quote.pandoc</string>
         <key>settings</key>
@@ -403,7 +436,7 @@ OVERRIDES
     <dict>
         <key>name</key>
         <string>Markdown Meta</string>
-        <!-- Earlier we set all of the image scope to gray (so that ! would be colored); here we reset the title to be normal again -->
+        
         <key>scope</key>
         <string>string.other.link.description.markdown</string>
         <key>settings</key>
