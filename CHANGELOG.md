@@ -6,7 +6,6 @@
 - Gitgutter support
 - Pandoc Academic support
 - Critic Mark support
-- Atom support
 - Visual Studio Code support
 
 ### Changed

@@ -1,6 +1,6 @@
 # Gray Matter
 
-A pair of colour schemes for writing Markdown in Sublime Text, Visual Studio Code, and Atom that take aesthetic cues from popular minimalist writing apps and aims to minimise the visual impact of most of the markdown punctuation. It also attempts to support the full range of Markdown syntax ranging from Markdown, MultiMarkdown, Github Flavoured Markdown, and Pandoc Markdown.
+A pair of colour schemes for writing Markdown in Sublime Text, Visual Studio Code, and other .tmTheme editors that takes aesthetic cues from popular minimalist writing apps and aims to minimise the visual impact of most of the markdown punctuation. It also attempts to support the full range of Markdown syntax ranging from Markdown, MultiMarkdown, Github Flavoured Markdown, and Pandoc Markdown.
 
 #### Light Theme
 
