@@ -1,0 +1,27 @@
+{
+    "name": "theme-graymatter",
+    "displayName": "Gray Matter",
+    "description": "A pair of colour schemes that take aesthetic cues from popular minimalist writing apps and aims to minimise the visual impact of most of the markdown punctuation.",
+    "version": "0.0.1",
+    "publisher": "TODO",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gray Matter Light",
+                "uiTheme": "vs",
+                "path": "./Gray Matter Light.tmTheme"
+            },
+            {
+                "label": "Gray Matter Dark",
+                "uiTheme": "vs",
+                "path": "./Gray Matter Dark.tmTheme"
+            }
+        ]
+    }
+}

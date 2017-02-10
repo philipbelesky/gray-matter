@@ -1,6 +1,6 @@
 # Gray Matter
 
-A pair of colour schemes for Sublime Text, Visual Studio Code, and Atom that take aesthetic cues from popular minimalist text editors and aims to minimise the visual impact of most of the markdown punctuations. It also attempts to support the full range of Markdown syntax ranging from Markdown, MultiMarkdown, Github Flavoured Markdown, and Pandoc Markdown.
+A pair of colour schemes for Sublime Text, Visual Studio Code, and Atom that take aesthetic cues from popular minimalist writing apps and aims to minimise the visual impact of most of the markdown punctuation. It also attempts to support the full range of Markdown syntax ranging from Markdown, MultiMarkdown, Github Flavoured Markdown, and Pandoc Markdown.
 
 #### Light Theme
 
@@ -72,10 +72,6 @@ Pull requests welcome. Notes:
 - Grammars don't appear to exist for most footnote formats in-text such as `[^ref]` / `[@Kullmann:2014bd 26]` or for recognising the bottom reference to a footnote such as `[^ref]:` / `[#Doe:2011]:`.
 - Grammars don't appear to exist for recognising the actual text part of an ATX style header
 - Grammars don't appear to exist for getting the syntax elements (ie the `1.` or `-`) for lists beyond the first item.
-
-## Changelog
-
-- 2.0.0: Added screenshots, added gitgutter support, added pandoc support, added criticmark support, generally fixed a bunch of syntax.
 
 ## Acknowledgements
 
