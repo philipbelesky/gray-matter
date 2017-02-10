@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.1] - 2017-02-10
+### Added
+- DEVELOPMENT.md
+
+### Changed
+- README.md text
+
 ## [1.2.0] - 2017-02-10
 ### Added
 - Screenshots
