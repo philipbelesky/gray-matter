@@ -1,5 +1,9 @@
 #!/bin/bash
 
+################################################################################
+# Sublime Dark Theme
+################################################################################
+
 # Make a copy to use as a base
 cp -f "Gray Matter Light.tmTheme" "Gray Matter Base.tmTheme"
 
@@ -18,6 +22,41 @@ perl -pi -e 's/C3E8F3/373737/g' Gray\ Matter\ Dark.tmTheme
 # Change the internal name
 perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark.tmTheme
 
+rm "Gray Matter Base.tmTheme"
+
+# Copy over for local Dev
+mkdir ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Color\ Scheme\ -\ Gray\ Matter
+rsync -av . ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Color\ Scheme\ -\ Gray\ Matter --exclude .git
+
+################################################################################
+# VSCode Dark Theme
+################################################################################
+
+# Make a copy to use as a base
+cp -f "Gray Matter Light-color-theme.json" "Gray Matter Base-color-theme.json"
+
+# Make the Dark version
+cp -f "Gray Matter Base-color-theme.json" Gray\ Matter\ Dark-color-theme.json
+
+# Dark version color swaps
+perl -pi -e 's/3C3C3C/BEBEBE/g' Gray\ Matter\ Dark-color-theme.json
+perl -pi -e 's/B9B9B9/616161/g' Gray\ Matter\ Dark-color-theme.json
+perl -pi -e 's/F5F5F5/1A191A/g' Gray\ Matter\ Dark-color-theme.json
+perl -pi -e 's/EDEDED/222122/g' Gray\ Matter\ Dark-color-theme.json
+perl -pi -e 's/C3E8F3/373737/g' Gray\ Matter\ Dark-color-theme.json
+# Change the internal name
+perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark-color-theme.json
+
+rm "Gray Matter Base-color-theme.json"
+
+# Copy over for local Dev
+mkdir ~/.vscode/extensions/theme-graymatter
+rsync -av . ~/.vscode/extensions/theme-graymatter --exclude .git
+
+################################################################################
+
+echo "Finished Gray Matter Build"
+
 # Convert light and dark to Atom formats (WIP)
 # apm init --theme gray-matter-light-syntax --convert "./Gray Matter Base.tmTheme"
 # apm init --theme gray-matter-dark-syntax --convert "./Gray Matter Dark.tmTheme"
@@ -30,8 +69,3 @@ perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark.tmTh
 
 # cp -R ./gray-matter-light-syntax/  ~/.atom/dev/packages/gray-matter-light-syntax
 # cp -R ./gray-matter-dark-syntax/  ~/.atom/dev/packages/gray-matter-dark-syntax
-
-# Copy over for local Dev
-mkdir ~/.vscode/extensions/theme-graymatter
-git archive HEAD | tar -x -C ~/.vscode/extensions/theme-graymatter
-rm "Gray Matter Base.tmTheme"
