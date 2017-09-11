@@ -79,18 +79,7 @@ A script builds the Dark version of the theme.
 
 Sublime Text works with the `.thTheme` files in the root directory. To publish to Package Control just tag the version and push from master.
 
-Visual Studio code uses the `*-color-theme.json` files in the root directory. These can be converted from the base `tmTheme` using the `yo code` extension generator (`npm install -g yo generator-code`).
-
-However the converter stumbles on comments, and needs to have additional settings added not present in the `.tmTheme`, so the typicaly process is:
-
-- Make a duplicate of `Gray Matter Light.tmTheme`
-- Run the line from `build.sh` to remove comments
-- Run the `yo code` process
-- Remove the `*-color-theme.json` file from the folder `yo code` added and move it up to root
-- Add in settings from `vscode-exta-settings-light.json` to the `*-color-theme.json` file
-- Run `build.sh` to convert the `vscode-exta-settings-light.json` to a dark version
-
-To publish to the Visual Studio Marketplace (requires the `vsce` package from `npm install`):
+Visual Studio code uses the `*-color-theme.json` files in the root directory which contain a number of VSC-specific settings for the editor chrome and import the `.tmTheme` for basic syntax highlighting. To publish to the Visual Studio Marketplace (requires the `vsce` package from `npm install`):
 
     $ vsce publish 1.2.0
 

@@ -1,285 +1,50 @@
 {
-	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#BEBEBE",
-				"background": "#1A191A",
-				"selectionBorder": "#373737",
-				"selectionHighlight": "#373737",
-				"findHighlight": "#373737",
-				"findHighlightForeground": "#BEBEBE",
-				"activeLinkForeground": "#29BEEA",
-				"gotoDefinitionLinkForeground": "#29BEEA",
-				"gutter": "#1A191A",
-				"gutterForeground": "#616161"
-			}
-		},
-		{
-			"name": "Comments",
-			"scope": [
-				"comment",
-				"comment punctuation"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown Structural Elements",
-			"scope": [
-				"punctuation.definition.constant.markdown",
-				"punctuation.definition.bold.markdown",
-				"punctuation.definition.italic.markdown",
-				"punctuation.definition.heading.markdown"
-			],
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown Heading Text",
-			"scope": "markup.heading.markdown",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#BEBEBE"
-			}
-		},
-		{
-			"name": "Markdown Italic Text",
-			"scope": "markup.italic.markdown",
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Markdown Bold Text",
-			"scope": "markup.bold.markdown",
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Blockquote",
-			"scope": "markup.quote.markdown",
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Markdown separator",
-			"scope": "meta.separator.markdown",
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown Link Grammar",
-			"scope": [
-				"punctuation.definition.constant.begin.markdown",
-				"punctuation.definition.constant.end.markdown",
-				"punctuation.definition.string.begin.markdown",
-				"punctuation.definition.string.end.markdown",
-				"punctuation.definition.link.markdown",
-				"punctuation.definition.metadata.markdown",
-				"punctuation.definition.blockquote.markdown"
-			],
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown Link Reference",
-			"scope": [
-				"punctuation.definition.metadata.markdown",
-				"string.other.link.title.markdown",
-				"meta.link.inline.markdown",
-				"meta.link.reference.markdown",
-				"string.other.link.description.title.markdown",
-				"meta.link.reference.literal.markdown"
-			],
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown Image",
-			"scope": "meta.image.inline.markdown",
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown Link Actual Text",
-			"scope": "string.other.link.title.markdown",
-			"settings": {
-				"foreground": "#BEBEBE"
-			}
-		},
-		{
-			"name": "Markdown Link URL Text",
-			"scope": "markup.underline.link.markdown",
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markup: Underline",
-			"scope": "markup.underline",
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown separator",
-			"scope": [
-				"markup.raw.block.markdown",
-				"markup.raw.inline.markdown"
-			],
-			"settings": {
-				"background": "#222122"
-			}
-		},
-		{
-			"name": "GitGutter (All)",
-			"scope": [
-				"markup.deleted.git_gutter",
-				"markup.inserted.git_gutter",
-				"markup.changed.git_guttermmarkup.ignored.git_gutter",
-				"markup.untracked.git_gutter"
-			],
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown Meta",
-			"scope": [
-				"meta.header.multimarkdown",
-				"keyword.other.multimarkdown",
-				"string.unquoted.multimarkdown",
-				"punctuation.separator.key-value.multimarkdown"
-			],
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Inline Footnote",
-			"scope": "footnote.delim.pandoc",
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Inline Citation",
-			"scope": "citation.bracket.pandoc",
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Footnote Reference",
-			"scope": "footnote.num.pandoc",
-			"settings": {
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Bock Quote",
-			"scope": "quote.pandoc",
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Addition",
-			"scope": "string.addition",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#BEBEBE"
-			}
-		},
-		{
-			"name": "Deletion",
-			"scope": "string.deletion",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "substitution",
-			"scope": "string.substitution",
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "highlight",
-			"scope": "string.highlight",
-			"settings": {
-				"fontStyle": "",
-				"background": "#222122"
-			}
-		},
-		{
-			"name": "comment",
-			"scope": "string.comment",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "blockcomment",
-			"scope": "string.blockcomment",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#616161"
-			}
-		},
-		{
-			"name": "Markdown Meta",
-			"scope": "string.other.link.description.markdown",
-			"settings": {
-				"foreground": "#BEBEBE"
-			}
-		}
-	],
+    "tokenColors": "./Gray Matter Dark.tmTheme",
 	"colors": {
-		"editor.foreground": "#BEBEBE",
-		"editor.background": "#1A191A",
-		"editorWhitespace.foreground": "#616161",
-		"editorCursor.foreground": "#29BEEA",
-		"editor.lineHighlightBackground": "#222122",
-		"editor.rangeHighlightBackground": "#222122",
-		"editor.hoverHighlightBackground": "#222122",
-		"peekViewEditor.matchHighlightBackground": "#222122",
-		"editor.selectionBackground": "#373737",
-		"editor.inactiveSelectionBackground": "#373737",
-		"editor.findRangeHighlightBackground": "#29BEEA",
-		"editor.findMatchHighlightBackground": "#373737",
-		"peekViewResult.matchHighlightBackground": "#373737",
-		"editor.findMatchBackground": "#373737",
-		"editor.wordHighlightBackground": "#373737",
-		"editor.wordHighlightStrongBackground": "#29BEEA",
-		"editorIndentGuide.background": "#1A191A",
-		"titleBar.activeBackground":  "#1A191A",
-		"titleBar.activeForeground":  "#BEBEBE",
-		"titleBar.inactiveBackground":  "#1A191A",
-		"titleBar.inactiveForeground":  "#616161",
 		"activityBar.background": "#1A191A",
 		"activityBar.foreground": "#616161",
+		"activityBarBadge.background": "#222122",
+		"activityBarBadge.foreground": "#BEBEBE",
+		"editor.background": "#1A191A",
+		"editor.findMatchBackground": "#373737",
+		"editor.findMatchHighlightBackground": "#373737",
+		"editor.findRangeHighlightBackground": "#29BEEA",
+		"editor.foreground": "#BEBEBE",
+		"editor.hoverHighlightBackground": "#222122",
+		"editor.inactiveSelectionBackground": "#373737",
+		"editor.lineHighlightBackground": "#222122",
+		"editor.rangeHighlightBackground": "#222122",
+		"editor.selectionBackground": "#373737",
+		"editor.wordHighlightBackground": "#373737",
+		"editor.wordHighlightStrongBackground": "#29BEEA",
+		"editorCursor.foreground": "#29BEEA",
+		"editorGroupHeader.tabsBackground": "#1A191A",
+		"editorIndentGuide.background": "#1A191A",
+		"editorLineNumber.foreground": "#616161",
+		"editorWhitespace.foreground": "#616161",
+		"list.activeSelectionBackground": "#373737",
+		"list.activeSelectionForeground": "#BEBEBE",
+		"list.inactiveSelectionBackground": "#222122",
+		"peekViewEditor.matchHighlightBackground": "#222122",
+		"peekViewResult.matchHighlightBackground": "#373737",
 		"sideBar.background":  "#1A191A",
 		"sideBar.foreground":  "#BEBEBE",
-		"editorGroupHeader.tabsBackground": "#1A191A",
+		"sideBarSectionHeader.background": "#1A191A",
+		"sideBarSectionHeader.foreground": "#BEBEBE",
+		"statusBar.background": "#1A191A",
+		"statusBar.foreground": "#BEBEBE",
 		"tab.activeBackground": "#222122",
+		"tab.activeBorder": "#222122",
 		"tab.activeForeground": "#BEBEBE",
+		"tab.border": "#1A191A",
 		"tab.inactiveBackground": "#1A191A",
 		"tab.inactiveForeground": "#616161",
-		"statusBar.background":  "#1A191A",
-		"statusBar.foreground":  "#BEBEBE",
+		"titleBar.activeBackground":  "#1A191A",
+		"titleBar.activeForeground": "#BEBEBE",
+		"titleBar.inactiveBackground":  "#1A191A",
+		"titleBar.inactiveForeground": "#616161",
+        "widget.shadow": "#222122",
+        "scrollbar.shadow": "#222122"
 	},
 	"name": "Gray Matter Dark"
 }
