@@ -35,3 +35,5 @@ perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark.tmTh
 mkdir ~/.vscode/extensions/theme-graymatter
 git archive HEAD | tar -x -C ~/.vscode/extensions/theme-graymatter
 rm "Gray Matter Base.tmTheme"
+
+echo "Finished Gray Matter Build"

@@ -30,25 +30,25 @@ Note that this theme is specifically designed for Markdown. To configure Sublime
 
 Add in either:
 
-        "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Light.tmTheme",
+    "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Light.tmTheme",
 
 Or:
 
-        "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Dark.tmTheme",
+    "color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Dark.tmTheme",
 
 While in this file here are another few options you may want to consider in order to better match a more traditional Markdown text editor:
 
-        "draw_centered": true,
-        "font_size": 18,
-        "gutter": false,
-        "highlight_line": false,
-        "line_numbers": true,
-        "line_padding_bottom": 4,
-        "line_padding_top": 4,
-        "rulers": [],
-        "tab_size": 4,
-        "word_wrap": true,
-        "wrap_width": 90
+    "draw_centered": true,
+    "font_size": 18,
+    "gutter": false,
+    "highlight_line": false,
+    "line_numbers": true,
+    "line_padding_bottom": 4,
+    "line_padding_top": 4,
+    "rulers": [],
+    "tab_size": 4,
+    "word_wrap": true,
+    "wrap_width": 90
 
 ### Wider Syntax Support
 
@@ -57,7 +57,43 @@ While in this file here are another few options you may want to consider in orde
 
 ## Visual Studio Installation & Configuration
 
-Currently the theme is available through the Visual Studio Marketplace. Installation and configuration instructions will be added in a future version.
+Currently the theme is available through the Visual Studio Marketplace. You can then activate it in the `Preferences` > `Color Theme` section of the menu.
+
+## Development
+
+#### References/Aids
+
+- [Textmate language grammars](https://manual.macromates.com/en/language_grammars.html)
+- [Textmate scope selectors](https://manual.macromates.com/en/scope_selectors.html)
+- [Sublime Text Color Scheme reference](http://docs.sublimetext.info/en/latest/reference/color_schemes.html)
+- Sublime Text Color Schemes (if active) mostly reload when the file is saved; if not run `[ v.settings().erase("color_scheme") for views in [ w.views() for w in sublime.windows() ] for v in views ]` in the console
+- Sublime Text's [Scope Hunter](https://github.com/facelessuser/ScopeHunter) plugin
+
+#### Building
+
+A script builds the Dark version of the theme.
+
+    $ bash build.sh
+
+#### Publishing
+
+VSCode and Sublime both work with the `.thTheme` files in the root directory. Atom ises the `.less` files in `gray-matter-X-syntax` folders
+
+To Package Control: just tag the version and push from master
+
+To the Visual Studio Marketplace (requires the `vsce` package from `npm install`):
+
+    $ vsce publish 1.2.0
+
+## Roadmap
+
+- Sublime Text Multimarkdown Grammars don't appear to exist for most footnote formats in-text such as `[^ref]` / `[@Kullmann:2014bd 26]` or for recognising the bottom reference to a footnote such as `[^ref]:` / `[#Doe:2011]:`.
+- Sublime Text Multimarkdown Grammars don't appear to exist for recognising the actual text part of an ATX style header
+- Sublime Text Multimarkdown Grammars don't appear to exist for getting the syntax elements (ie the `1.` or `-`) for lists beyond the first item.
+
+## License
+
+The MIT license.
 
 ## Acknowledgements
 
