@@ -1,0 +1,285 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#3C3C3C",
+				"background": "#F5F5F5",
+				"selectionBorder": "#C3E8F3",
+				"selectionHighlight": "#C3E8F3",
+				"findHighlight": "#C3E8F3",
+				"findHighlightForeground": "#3C3C3C",
+				"activeLinkForeground": "#29BEEA",
+				"gotoDefinitionLinkForeground": "#29BEEA",
+				"gutter": "#F5F5F5",
+				"gutterForeground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"comment punctuation"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown Structural Elements",
+			"scope": [
+				"punctuation.definition.constant.markdown",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown",
+				"punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown Heading Text",
+			"scope": "markup.heading.markdown",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#3C3C3C"
+			}
+		},
+		{
+			"name": "Markdown Italic Text",
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown Bold Text",
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blockquote",
+			"scope": "markup.quote.markdown",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown separator",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown Link Grammar",
+			"scope": [
+				"punctuation.definition.constant.begin.markdown",
+				"punctuation.definition.constant.end.markdown",
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown",
+				"punctuation.definition.link.markdown",
+				"punctuation.definition.metadata.markdown",
+				"punctuation.definition.blockquote.markdown"
+			],
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown Link Reference",
+			"scope": [
+				"punctuation.definition.metadata.markdown",
+				"string.other.link.title.markdown",
+				"meta.link.inline.markdown",
+				"meta.link.reference.markdown",
+				"string.other.link.description.title.markdown",
+				"meta.link.reference.literal.markdown"
+			],
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown Image",
+			"scope": "meta.image.inline.markdown",
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown Link Actual Text",
+			"scope": "string.other.link.title.markdown",
+			"settings": {
+				"foreground": "#3C3C3C"
+			}
+		},
+		{
+			"name": "Markdown Link URL Text",
+			"scope": "markup.underline.link.markdown",
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markup: Underline",
+			"scope": "markup.underline",
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown separator",
+			"scope": [
+				"markup.raw.block.markdown",
+				"markup.raw.inline.markdown"
+			],
+			"settings": {
+				"background": "#EDEDED"
+			}
+		},
+		{
+			"name": "GitGutter (All)",
+			"scope": [
+				"markup.deleted.git_gutter",
+				"markup.inserted.git_gutter",
+				"markup.changed.git_guttermmarkup.ignored.git_gutter",
+				"markup.untracked.git_gutter"
+			],
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown Meta",
+			"scope": [
+				"meta.header.multimarkdown",
+				"keyword.other.multimarkdown",
+				"string.unquoted.multimarkdown",
+				"punctuation.separator.key-value.multimarkdown"
+			],
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Inline Footnote",
+			"scope": "footnote.delim.pandoc",
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Inline Citation",
+			"scope": "citation.bracket.pandoc",
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Footnote Reference",
+			"scope": "footnote.num.pandoc",
+			"settings": {
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Bock Quote",
+			"scope": "quote.pandoc",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Addition",
+			"scope": "string.addition",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#3C3C3C"
+			}
+		},
+		{
+			"name": "Deletion",
+			"scope": "string.deletion",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "substitution",
+			"scope": "string.substitution",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "highlight",
+			"scope": "string.highlight",
+			"settings": {
+				"fontStyle": "",
+				"background": "#EDEDED"
+			}
+		},
+		{
+			"name": "comment",
+			"scope": "string.comment",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "blockcomment",
+			"scope": "string.blockcomment",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#B9B9B9"
+			}
+		},
+		{
+			"name": "Markdown Meta",
+			"scope": "string.other.link.description.markdown",
+			"settings": {
+				"foreground": "#3C3C3C"
+			}
+		}
+	],
+	"colors": {
+		"editor.foreground": "#3C3C3C",
+		"editor.background": "#F5F5F5",
+		"editorWhitespace.foreground": "#B9B9B9",
+		"editorCursor.foreground": "#29BEEA",
+		"editor.lineHighlightBackground": "#EDEDED",
+		"editor.rangeHighlightBackground": "#EDEDED",
+		"editor.hoverHighlightBackground": "#EDEDED",
+		"peekViewEditor.matchHighlightBackground": "#EDEDED",
+		"editor.selectionBackground": "#C3E8F3",
+		"editor.inactiveSelectionBackground": "#C3E8F3",
+		"editor.findRangeHighlightBackground": "#29BEEA",
+		"editor.findMatchHighlightBackground": "#C3E8F3",
+		"peekViewResult.matchHighlightBackground": "#C3E8F3",
+		"editor.findMatchBackground": "#C3E8F3",
+		"editor.wordHighlightBackground": "#C3E8F3",
+		"editor.wordHighlightStrongBackground": "#29BEEA",
+		"editorIndentGuide.background": "#F5F5F5",
+		"titleBar.activeBackground":  "#F5F5F5",
+		"titleBar.activeForeground":  "#3C3C3C",
+		"titleBar.inactiveBackground":  "#F5F5F5",
+		"titleBar.inactiveForeground":  "#B9B9B9",
+		"activityBar.background": "#F5F5F5",
+		"activityBar.foreground": "#B9B9B9",
+		"sideBar.background":  "#F5F5F5",
+		"sideBar.foreground":  "#3C3C3C",
+		"editorGroupHeader.tabsBackground": "#F5F5F5",
+		"tab.activeBackground": "#EDEDED",
+		"tab.activeForeground": "#3C3C3C",
+		"tab.inactiveBackground": "#F5F5F5",
+		"tab.inactiveForeground": "#B9B9B9",
+		"statusBar.background":  "#F5F5F5",
+		"statusBar.foreground":  "#3C3C3C",
+	},
+	"name": "Gray Matter Light"
+}

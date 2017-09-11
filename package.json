@@ -16,12 +16,12 @@
             {
                 "label": "Gray Matter Light",
                 "uiTheme": "vs",
-                "path": "./Gray Matter Light.tmTheme"
+                "path": "./Gray Matter Light-color-theme.json"
             },
             {
                 "label": "Gray Matter Dark",
                 "uiTheme": "vs",
-                "path": "./Gray Matter Dark.tmTheme"
+                "path": "./Gray Matter Dark-color-theme.json"
             }
         ]
     }
