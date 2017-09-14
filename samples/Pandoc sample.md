@@ -84,6 +84,3 @@ Table:  Demonstration of simple table syntax.
 +---------------+---------------+--------------------+
 
 ## End of Document
-
-
-

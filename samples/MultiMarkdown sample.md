@@ -60,7 +60,7 @@ This is a combination of citations[p. 22][#Doe:2006][p. 10][#Doe:2009]. As is th
 [#Doe:2009]: John Doe. *Another Big Fancy Book*.  Vanity Press, 2009.
 [#Doe:2011]: John Doe. *The Final Big Fancy Book*.  Vanity Press, 2011.
 
-### Definition LIsts
+### Definition Lists
 
 Apple
 :   Pomaceous fruit of plants of the genus Malus in
@@ -71,6 +71,3 @@ Orange
 :   The fruit of an evergreen tree of the genus Citrus.
 
 ## End of Document
-
-
-

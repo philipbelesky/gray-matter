@@ -104,7 +104,7 @@ Selection highlight             : #373737 > #373737
         <string>Markdown Structural Elements</string>
         
         <key>scope</key>
-        <string>punctuation.definition.constant.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.heading.markdown</string>
+        <string>punctuation.definition.constant.markdown,punctuation.definition.bold.markdown, punctuation.definition.italic.markdown,punctuation.definition.heading.markdown,punctuation.definition.heading.begin.markdown,punctuation.definition.heading.setext.markdown,punctuation.definition.list_item.markdown,markup.list.numbered.bullet.markdown,punctuation.definition.bold.begin.markdown,punctuation.definition.bold.end.markdown,punctuation.definition.italic.begin.markdown,punctuation.definition.italic.end.markdown</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>
@@ -116,7 +116,7 @@ Selection highlight             : #373737 > #373737
       <string>Markdown Heading Text</string>
       
       <key>scope</key>
-      <string>markup.heading.markdown</string>
+      <string>markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.markdown</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -166,7 +166,7 @@ Selection highlight             : #373737 > #373737
         <string>Markdown separator</string>
         
         <key>scope</key>
-        <string>meta.separator.markdown</string>
+        <string>meta.separator.markdown,meta.separator.thematic-break.markdown, punctuation.definition.thematic-break.markdown</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>
@@ -178,7 +178,7 @@ Selection highlight             : #373737 > #373737
       <string>Markdown Link Grammar</string>
       
       <key>scope</key>
-      <string>punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown, punctuation.definition.metadata.markdown,punctuation.definition.blockquote.markdown</string>
+      <string>punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.markdown,punctuation.definition.blockquote.markdown</string>
       <key>settings</key>
       <dict>
           <key>foreground</key>
@@ -190,7 +190,7 @@ Selection highlight             : #373737 > #373737
       <string>Markdown Link Reference</string>
       
       <key>scope</key>
-      <string>punctuation.definition.metadata.markdown,string.other.link.title.markdown,meta.link.inline.markdown,meta.link.reference.markdown,string.other.link.description.title.markdown,meta.link.reference.literal.markdown</string>
+      <string>punctuation.definition.metadata.markdown,string.other.link.title.markdown,meta.link.inline.markdown,meta.link.reference.markdown,string.other.link.description.title.markdown,meta.link.reference.literal.markdown,punctuation.separator.key-value.markdown</string>
       <key>settings</key>
       <dict>
           <key>foreground</key>
@@ -251,14 +251,35 @@ Selection highlight             : #373737 > #373737
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown separator</string>
-        
+        <string>Markdown code blocks and inline code backgrounds</string>
         <key>scope</key>
-        <string>markup.raw.block.markdown,markup.raw.inline.markdown</string>
+        <string>markup.raw.block.markdown,markup.raw.inline.markdown,markup.raw.code-fence.markdown</string>
         <key>settings</key>
         <dict>
             <key>background</key>
             <string>#222122</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown code block syntax and inline code block syntax</string>
+        <key>scope</key>
+        <string>punctuation.definition.raw.code-fence.begin.markdown,punctuation.definition.raw.code-fence.end.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#616161</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown table syntax</string>
+        <key>scope</key>
+        <string>punctuation.section.table-header.markdown,punctuation.separator.table-cell.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#616161</string>
         </dict>
     </dict>
 <!--
