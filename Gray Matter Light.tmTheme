@@ -87,8 +87,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
         <key>name</key>
-        <string>Comments</string>
-        <!-- IE this comment -->
+        <string>Comments</string><!-- (inline; i.e. like this) -->
         <key>scope</key>
         <string>comment, comment punctuation</string>
         <key>settings</key>
@@ -101,8 +100,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown Structural Elements</string>
-        <!-- Bold/italics marks, heading marks, list indents -->
+        <string>Markdown Structural Elements</string><!-- (ie bold/italic/heading/list marks) -->
         <key>scope</key>
         <string>punctuation.definition.constant.markdown,punctuation.definition.bold.markdown, punctuation.definition.italic.markdown,punctuation.definition.heading.markdown,punctuation.definition.heading.begin.markdown,punctuation.definition.heading.setext.markdown,punctuation.definition.list_item.markdown,markup.list.numbered.bullet.markdown,punctuation.definition.bold.begin.markdown,punctuation.definition.bold.end.markdown,punctuation.definition.italic.begin.markdown,punctuation.definition.italic.end.markdown</string>
         <key>settings</key>
@@ -114,7 +112,6 @@ Selection highlight             : #C3E8F3 > #373737
      <dict>
       <key>name</key>
       <string>Markdown Heading Text</string>
-      <!-- Makes heading elements text bolder/darker -->
       <key>scope</key>
       <string>markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.markdown</string>
       <key>settings</key>
@@ -122,25 +119,12 @@ Selection highlight             : #C3E8F3 > #373737
         <key>fontStyle</key>
         <string>bold</string>
         <key>foreground</key>
-        <string>#3C3C3C</string><!-- 3C3C3C -->
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Markdown Italic Text</string>
-      <!-- Makes italics actually italic -->
-      <key>scope</key>
-      <string>markup.italic.markdown</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string>italic</string>
+        <string>#3C3C3C</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Markdown Bold Text</string>
-      <!-- Makes bold actually bold -->
       <key>scope</key>
       <string>markup.bold.markdown</string>
       <key>settings</key>
@@ -151,8 +135,18 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
       <key>name</key>
+      <string>Markdown Italic Text</string>
+      <key>scope</key>
+      <string>markup.italic.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Blockquote</string>
-      <!-- Makes blockquotes italic -->
       <key>scope</key>
       <string>markup.quote.markdown</string>
       <key>settings</key>
@@ -163,8 +157,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown separator</string>
-        <!-- Horizontal Rules -->
+        <string>Markdown separators and hrs</string>
         <key>scope</key>
         <string>meta.separator.markdown,meta.separator.thematic-break.markdown, punctuation.definition.thematic-break.markdown</string>
         <key>settings</key>
@@ -175,8 +168,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
       <key>name</key>
-      <string>Markdown Link Grammar</string>
-      <!-- the square brackets surroundings links/refs/imgs -->
+      <string>Markdown Link Grammar syntax</string><!-- (like []) -->
       <key>scope</key>
       <string>punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.markdown,punctuation.definition.blockquote.markdown</string>
       <key>settings</key>
@@ -187,8 +179,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
       <key>name</key>
-      <string>Markdown Link Reference</string>
-      <!-- the round brackets around links, and the second bit of text/title -->
+      <string>Markdown Link Reference</string><!-- the round brackets around links, and the second bit of text/title -->
       <key>scope</key>
       <string>punctuation.definition.metadata.markdown,string.other.link.title.markdown,meta.link.inline.markdown,meta.link.reference.markdown,string.other.link.description.title.markdown,meta.link.reference.literal.markdown,punctuation.separator.key-value.markdown</string>
       <key>settings</key>
@@ -199,10 +190,9 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
       <key>name</key>
-      <string>Markdown Image</string>
-      <!--  -->
+      <string>Markdown Image</string><!-- The ![] in -->
       <key>scope</key>
-      <string>meta.image.inline.markdown</string>
+      <string>meta.image.inline.markdown,punctuation.definition.image.begin.markdown,punctuation.definition.image.end.markdown</string>
       <key>settings</key>
       <dict>
           <key>foreground</key>
@@ -211,12 +201,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
       <key>name</key>
-      <string>Markdown Link Actual Text</string>
-      <!-- The first bit of text in a link/ref
-        [THIS TEXT](http://daringfireball.net "Has a title")
-        [THIS TEXT][]
-        [THIS TEXT][#Doe:2011].
-      -->
+      <string>Markdown Link Actual Text</string><!-- (ie [THIS TEXT][#Doe:2011]) -->
       <key>scope</key>
       <string>string.other.link.title.markdown</string>
       <key>settings</key>
@@ -227,8 +212,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
       <key>name</key>
-      <string>Markdown Link URL Text</string>
-      <!-- Inline URLs and those in links/reference elemnts -->
+      <string>Markdown Link Inline URL Text</string>
       <key>scope</key>
       <string>markup.underline.link.markdown</string>
       <key>settings</key>
@@ -240,7 +224,6 @@ Selection highlight             : #C3E8F3 > #373737
     <dict>
         <key>name</key>
         <string>Markup: Underline</string>
-        <!-- Matchs url/path in images -->
         <key>scope</key>
         <string>markup.underline</string>
         <key>settings</key>
@@ -251,7 +234,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown code blocks and inline code backgrounds</string>
+        <string>Markdown code blocks and inline code</string>
         <key>scope</key>
         <string>markup.raw.block.markdown,markup.raw.inline.markdown,markup.raw.code-fence.markdown</string>
         <key>settings</key>
@@ -262,7 +245,7 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown code block syntax and inline code block syntax</string>
+        <string>Markdown code block/inline code syntax </string><!-- like `code` or ~~~ -->
         <key>scope</key>
         <string>punctuation.definition.raw.code-fence.begin.markdown,punctuation.definition.raw.code-fence.end.markdown</string>
         <key>settings</key>
@@ -273,9 +256,9 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown table syntax</string>
+        <string>Markdown table syntax</string><!--  -->
         <key>scope</key>
-        <string>punctuation.section.table-header.markdown,punctuation.separator.table-cell.markdown</string>
+        <string>punctuation.definition.table-cell-alignment.markdown,punctuation.section.table-header.markdown,punctuation.separator.table-cell.markdown</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>
@@ -283,9 +266,7 @@ Selection highlight             : #C3E8F3 > #373737
         </dict>
     </dict>
 <!--
---------------------------------------------------------------------------------
 GITGUTTER
---------------------------------------------------------------------------------
 -->
     <dict>
       <key>name</key>
@@ -299,9 +280,7 @@ GITGUTTER
       </dict>
     </dict>
 <!--
---------------------------------------------------------------------------------
 MULTIMARKDOWN
---------------------------------------------------------------------------------
 -->
     <dict>
         <key>name</key>
@@ -316,9 +295,7 @@ MULTIMARKDOWN
         </dict>
     </dict>
 <!--
---------------------------------------------------------------------------------
 PANDOC ACADEMIC
---------------------------------------------------------------------------------
 -->
     <dict>
         <key>name</key>
@@ -369,9 +346,7 @@ PANDOC ACADEMIC
         </dict>
     </dict>
 <!--
---------------------------------------------------------------------------------
 CRITIC MARKUP
---------------------------------------------------------------------------------
 -->
     <dict>
         <key>name</key>
@@ -450,9 +425,7 @@ CRITIC MARKUP
         </dict>
     </dict>
 <!--
---------------------------------------------------------------------------------
 OVERRIDES
---------------------------------------------------------------------------------
 -->
     <dict>
         <key>name</key>
@@ -467,9 +440,7 @@ OVERRIDES
         </dict>
     </dict>
 <!--
---------------------------------------------------------------------------------
 END
---------------------------------------------------------------------------------
 -->
   </array>
   <key>uuid</key>

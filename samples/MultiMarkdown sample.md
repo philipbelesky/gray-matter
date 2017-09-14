@@ -30,7 +30,6 @@ Date:   July 25, 2005
 | Content      | **Cell**      | Cell         |
 | New section  | More          | Data         |
 
-
 ### Footnotes
 
 Here is some text containing a footnote.[^somesamplefootnote] Here's a more advanced footnote[^longer]
