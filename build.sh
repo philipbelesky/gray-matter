@@ -24,10 +24,6 @@ perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark.tmTh
 
 rm "Gray Matter Base.tmTheme"
 
-# Copy over for local Dev
-mkdir ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Color\ Scheme\ -\ Gray\ Matter
-rsync -av . ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Color\ Scheme\ -\ Gray\ Matter --exclude .git
-
 ################################################################################
 # VSCode Dark Theme
 ################################################################################
@@ -48,10 +44,6 @@ perl -pi -e 's/C3E8F3/373737/g' Gray\ Matter\ Dark-color-theme.json
 perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark-color-theme.json
 
 rm "Gray Matter Base-color-theme.json"
-
-# Copy over for local Dev
-mkdir ~/.vscode/extensions/theme-graymatter
-rsync -av . ~/.vscode/extensions/theme-graymatter --exclude .git
 
 ################################################################################
 

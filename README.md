@@ -4,11 +4,11 @@ A pair of colour schemes for writing Markdown in Sublime Text, Visual Studio Cod
 
 #### Light Theme
 
-![Light Theme](https://github.com/philipbelesky/gray-matter/raw/develop/light.jpg)
+![Light Theme](https://github.com/philipbelesky/gray-matter/raw/master/screenshots/light.jpg)
 
 #### Dark Theme
 
-![Dark Theme](https://github.com/philipbelesky/gray-matter/raw/develop/dark.jpg)
+![Dark Theme](https://github.com/philipbelesky/gray-matter/raw/master/screenshots/dark.jpg)
 
 ## Sublime Text Installation & Configuration
 
@@ -60,6 +60,10 @@ While in this file here are another few options you may want to consider in orde
 Currently the theme is available through the Visual Studio Marketplace. You can then activate it in the `Preferences` > `Color Theme` section of the menu.
 
 ## Development
+
+#### Tests
+
+Tests use [sublime_color_scheme_unit](https://github.com/gerardroche/sublime_color_scheme_unit) to test for regressions. Once installed (via Package Control) the `:TestSuite` command in the Command Palette will run the test set.
 
 #### References/Aids
 

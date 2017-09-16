@@ -1,10 +1,27 @@
-Title:  MultiMarkdown and Pandoc Tests
-Author: Philip Belesky
-Date:   July 25, 2005
+<!-- COLOR SCHEME TEST "Color Scheme - Gray Matter/Gray Matter Light.tmTheme" "Markdown Extended" -->
 
-## MultiMarkdown Tests
+---
+title: YAML Front Matter
+description: A very simple way to add structured data to a page.
+---
 
-<!-- this should be an unreadable comment  -->
+## Markdown Extended Specific
+
+#### Task lists
+
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+
+#### @Mentions
+
+@github/support What do you think about these updates?
+
+#### Emoji
+
+:+1:
+
+## Markdown General
 
 ### Images
 

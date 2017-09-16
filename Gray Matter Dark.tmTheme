@@ -102,7 +102,7 @@ Selection highlight             : #373737 > #373737
         <key>name</key>
         <string>Markdown Structural Elements</string>
         <key>scope</key>
-        <string>punctuation.definition.constant.markdown,punctuation.definition.bold.markdown, punctuation.definition.italic.markdown,punctuation.definition.heading.markdown,punctuation.definition.heading.begin.markdown,punctuation.definition.heading.setext.markdown,punctuation.definition.list_item.markdown,markup.list.numbered.bullet.markdown,punctuation.definition.bold.begin.markdown,punctuation.definition.bold.end.markdown,punctuation.definition.italic.begin.markdown,punctuation.definition.italic.end.markdown</string>
+        <string>punctuation.definition.constant.markdown,punctuation.definition.bold.markdown, punctuation.definition.italic.markdown,punctuation.definition.heading.markdown,punctuation.definition.heading.begin.markdown,punctuation.definition.heading.end.markdown,punctuation.definition.heading.setext.markdown,punctuation.definition.list_item.markdown,markup.list.numbered.bullet.markdown,punctuation.definition.bold.begin.markdown,punctuation.definition.bold.end.markdown,punctuation.definition.italic.begin.markdown,punctuation.definition.italic.end.markdown</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>
@@ -256,28 +256,14 @@ Selection highlight             : #373737 > #373737
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown table syntax</string>
+        <string>Markdown inline html</string>
         <key>scope</key>
-        <string>punctuation.definition.table-cell-alignment.markdown,punctuation.section.table-header.markdown,punctuation.separator.table-cell.markdown</string>
+        <string>meta.tag.inline.any.html,meta.tag.block.any.html</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>
             <string>#616161</string>
         </dict>
-    </dict>
-<!--
-GITGUTTER
--->
-    <dict>
-      <key>name</key>
-      <string>GitGutter (All)</string>
-      <key>scope</key>
-      <string>markup.deleted.git_gutter,markup.inserted.git_gutter,markup.changed.git_guttermmarkup.ignored.git_gutter,markup.untracked.git_gutter</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#616161</string>
-      </dict>
     </dict>
 <!--
 MULTIMARKDOWN
@@ -294,8 +280,19 @@ MULTIMARKDOWN
             <string>#616161</string>
         </dict>
     </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown table syntax</string>
+        <key>scope</key>
+        <string>punctuation.definition.table-cell-alignment.markdown,punctuation.section.table-header.markdown,punctuation.separator.table-cell.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#616161</string>
+        </dict>
+    </dict>
 <!--
-PANDOC ACADEMIC
+PANDOC
 -->
     <dict>
         <key>name</key>
@@ -344,6 +341,20 @@ PANDOC ACADEMIC
             <key>fontStyle</key>
             <string>italic</string>
         </dict>
+    </dict>
+<!--
+GITGUTTER
+-->
+    <dict>
+      <key>name</key>
+      <string>GitGutter (All)</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter,markup.inserted.git_gutter,markup.changed.git_guttermmarkup.ignored.git_gutter,markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#616161</string>
+      </dict>
     </dict>
 <!--
 CRITIC MARKUP
