@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.4.1] - 2017-09-16
+### Added
+- Added basic tests using sublime_color_scheme_unit
+
+### Changed
+- Minor syntax highlighting improvements
+
 ## [1.4.0] - 2017-09-14
 ### Changed
 - Updated the basic Markdown syntax to work with the new Sublime Text 3
