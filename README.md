@@ -61,6 +61,10 @@ Currently the theme is available through the Visual Studio Marketplace. You can 
 
 ## Development
 
+#### Tests
+
+Tests use [sublime_color_scheme_unit](https://github.com/gerardroche/sublime_color_scheme_unit) to test for regressions. Once installed (via Package Control) the `:TestSuite` command in the Command Palette will run the test set.
+
 #### References/Aids
 
 - [Textmate language grammars](https://manual.macromates.com/en/language_grammars.html)

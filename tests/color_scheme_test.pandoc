@@ -1,3 +1,4 @@
+<!-- COLOR SCHEME TEST "Color Scheme - Gray Matter/Gray Matter Light.tmTheme" "PandocAcademic" -->
 % Pandoc Tests
 % Philip Belesky
 % 2000-01-01
@@ -10,7 +11,7 @@ This ~~is deleted text.~~
 
 H~2~O is a subscript example.  2^10^ is a superscript example.
 
-This is an [Internal Link](#intrduction).
+This is an [Internal Link](#introduction).
 
 ### Footnotes
 

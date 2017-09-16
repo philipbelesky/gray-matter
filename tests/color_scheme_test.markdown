@@ -1,14 +1,51 @@
+<!-- COLOR SCHEME TEST "Color Scheme - Gray Matter/Gray Matter Light.tmTheme" "Markdown" -->
+
 ## Markdown Tests
 
-A paragraph containing **bold** __text__ and *italics* _text_ and [link text](http://daringfireball.net). Sometimes these can be in**sid**e cer*ta*in words.
+#### Fint Stykes
 
-[This is a normal link with a title](http://daringfireball.net "Has a title") while this is a [refence link][reference]. This is a [lazy reference link][]. This is an automatic link: <http://example.com/>.
+A paragraph containing **bold style A** text.
+<!--                     ^^^^^^^^^^^^ fs=bold  -->
+
+A paragraph containing __bold style B__ text.
+<!--                     ^^^^^^^^^^^^ fs=bold  -->
+
+A paragraph *italics style A* test.
+<!--         ^^^^^^^^^^^^^^^ fs=italic  -->
+
+A paragraph _italics style B_ test.
+<!--         ^^^^^^^^^^^^^^^ fs=italic  -->
+
+Sometimes these can be in**sid**e cer*ta*in words.
+<!--                     ^^ fg=#B9B9B9 -->
+
+#### Links
+
+A paragraph containing [link text here](http://daringfireball.net).
+<!--                   ^ fg=#B9B9B9     ^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#B9B9B9-->
+
+This is a [normal link with a title](http://daringfireball.net "Has a title") style.
+<!--      ^ fg=#B9B9B9 ^^^^ fg=#3C3C3C ^ fg=#B9B9B9  ^^^^^^^^^^^^^^^^^^^^^^^ fg=#B9B9B9-->
+
+This is a [reference link][reference] style.
+
+This is a [lazy reference link][] style.
+
+This is an automatic link: <http://example.com/> style and one more <email@email.com>.
 
 A paragraph with an
 inline linebreak
 
 [reference]: http://daringfireball.net "A reference link"
 [lazy reference link]: http://daringfireball.net
+
+#### Escaping
+
+This is some \` escaped syntax and some other \* escaped syntax
+<!--         ^ fg=#B9B9B9 -->
+
+This is just a \ standard backtick
+<!--           ^ fg=#3C3C3C -->
 
 ### Headings
 
@@ -18,6 +55,7 @@ inline linebreak
 
 This is an H1
 =============
+<!-- ^^^^^^^^ fg=#B9B9B9  -->
 
 ## A H2
 
@@ -25,12 +63,15 @@ This is an H1
 
 This is an H2
 -------------
+<!-- ^^^^^^^^ fg=#B9B9B9  -->
 
 ### A H3
 
 ### A H3 with *italics* and **bold**
+<!--           ^^^^^^^ fs=italic  -->
 
-### A H3 with some flaws ######
+### A H3 with some flaws ###
+<!--                     ^ fg=#B9B9B9  -->
 
 ### [A H3 that is a link](http://daringfireball.net)
 
@@ -39,27 +80,32 @@ This is an H2
 #### A H4
 
 ##### A H5
+<!--  ^^^^ fs=bold  -->
 
 ###### A H6
+<!-- ^ fg=#B9B9B9  -->
 
 ### Lists
-
-TODO: None of the list characters seem to work
 
 - Note +, -, and * should be supported
 - Testing _character_ **types** [here]()
 * Testing nesting 1
     - level one A
     - level one B
+<!--^ fg=#B9B9B9  -->
         1. level two A
         2. level two B
+<!--    ^^ fg=#B9B9B9  -->
 + Testing nesting 2
     1. level one A
     2. level one B
+<!--^^ fg=#B9B9B9  -->
         + level two A
         - level two B
+<!--    ^ fg=#B9B9B9  -->
 - #### Headings in lists
 * Testing ``code`` inside
+<!--      ^^^^^^^^ bg=#ededed  -->
 
         <html>of lists</html>
 * Testing multiple
@@ -91,27 +137,20 @@ TODO: None of the list characters seem to work
 
 ### Blockqotes
 
-> This is a blockquote. TODO: The blockquote arrow should be gray
-
-.
+> This is a blockquote.
+<!--   ^^^^^^^^^^^^^^^^ fs=italic  -->
 
 > This is a blockquote with a line break.
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
-
-.
 
 > This is a blockquote with a line break.
 >
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
 
-.
-
 > This is a blockquote with some nesting.
 >> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
->>>> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+>>> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
-
-.
 
 > ## This is a header.
 >
@@ -125,28 +164,34 @@ TODO: None of the list characters seem to work
 ### Rulers/Rules
 
 * * *
+<!--^ fg=#B9B9B9  -->
 
 ***
 
 *****
+<!--^ fg=#B9B9B9  -->
 
 - - -
+<!--^ fg=#B9B9B9  -->
 
 ---------------------------------------
+<!--                                  ^ fg=#B9B9B9  -->
 
 ---------------
+<!--          ^ fg=#B9B9B9  -->
 
 ### Code
 
 This is a normal paragraph:
 
     This is a code block.
+<!--^^^^^^^^^^^^^^^^^^^^^ bg=#ededed  -->
 
 Here is an example of AppleScript:
 
-  tell application "Foo"
-      beep
-  end tell
+    tell application "Foo"
+        beep
+    end tell
 
 This is inline code: `some code here`.
 
@@ -182,6 +227,7 @@ public class HelloWorld {
 
 <h1><span class="test">Test</span></h1>
 <img src="test" alt="test" />
+<!-- ^^^^^^^^^^^^^^^^^^^^^^^^ fg=#B9B9B9  -->
 
 ### Literals
 
