@@ -20,7 +20,7 @@
             },
             {
                 "label": "Gray Matter Dark",
-                "uiTheme": "vs",
+                "uiTheme": "vs-dark",
                 "path": "./Gray Matter Dark-color-theme.json"
             }
         ]
