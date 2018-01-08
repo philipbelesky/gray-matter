@@ -2,7 +2,7 @@
     "name": "theme-gray-matter",
     "displayName": "Gray Matter",
     "description": "A pair of colour schemes that take aesthetic cues from popular minimalist writing apps and aims to minimise the visual impact of most of the markdown punctuation.",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "publisher": "philipbe",
     "repository": "https://github.com/philipbelesky/gray-matter",
     "engines": {

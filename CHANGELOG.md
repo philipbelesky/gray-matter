@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.4.2] - 2018-01-08
+### Changed
+- Properly specify the dark mode theme for VS Code in the package.json file
+
 ## [1.4.1] - 2017-09-16
 ### Added
 - Added basic tests using sublime_color_scheme_unit
