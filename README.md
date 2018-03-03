@@ -10,7 +10,7 @@ A pair of colour schemes for writing Markdown in Sublime Text, Visual Studio Cod
 
 ![Dark Theme](https://github.com/philipbelesky/gray-matter/raw/master/screenshots/dark.jpg)
 
-## Sublime Text Installation & Configuration
+## Sublime Text Installation
 
 ### With Package Control
 
@@ -55,7 +55,7 @@ While in this file here are another few options you may want to consider in orde
 - For Critic Mark you'll need to manually install the [Critic Markup package](http://criticmarkup.com/sublime-text.php) — it is not in package control.
 - For Pandoc syntax you'll need to install the [Pandoc Academic package](https://github.com/larlequin/PandocAcademic) from Package Control
 
-## Visual Studio Installation & Configuration
+## Visual Studio Code Installation
 
 Currently the theme is available through the Visual Studio Marketplace. You can then activate it in the `Preferences` > `Color Theme` section of the menu.
 
@@ -65,7 +65,7 @@ Currently the theme is available through the Visual Studio Marketplace. You can 
 
 Tests use [sublime_color_scheme_unit](https://github.com/gerardroche/sublime_color_scheme_unit) to test for regressions. Once installed (via Package Control) the `:TestSuite` command in the Command Palette will run the test set.
 
-#### References/Aids
+#### References
 
 - [Textmate language grammars](https://manual.macromates.com/en/language_grammars.html)
 - [Textmate scope selectors](https://manual.macromates.com/en/scope_selectors.html)
@@ -101,6 +101,4 @@ The MIT license.
 
 ## Acknowledgements
 
-This colour scheme is heavily drawn from the visual style of [Byword](http://bywordapp.com/), [iA Writer](http://iawriter.com), and [Ulysses](https://ulyssesapp.com). I love both applications, but also like to make using of Sublime's more advanced features while writing.
-
-See `DEVELOPMENT.md` for information on Pull Requests, the Roadmap, etc.
+This colour scheme is heavily drawn from the visual style of [Byword](http://bywordapp.com/), [iA Writer](http://iawriter.com), and [Ulysses](https://ulyssesapp.com). I love each of these applications, but also like to make using of certain Sublime  features while writing.
