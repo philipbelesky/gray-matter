@@ -67,6 +67,8 @@ Selection highlight             : #C3E8F3 > #373737
 
         <key>misspelling</key><!-- Sublime text spelling underline -->
         <string>#29BEEA</string>
+        <key>fold_marker</key><!-- Sublime text folding [...] -->
+        <string>#C3E8F3</string>
 
         <key>wordHighlight</key><!-- VSC: ?? -->
         <string>#C3E8F3</string>
