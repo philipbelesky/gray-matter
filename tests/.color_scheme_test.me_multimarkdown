@@ -1,29 +1,17 @@
-<!-- COLOR SCHEME TEST "Color Scheme - Gray Matter/Gray Matter Light.tmTheme" "Markdown Extended" -->
 
+<!-- Overwrites default syntax; not supported at present-->
 ---
 title: YAML Front Matter
 description: A very simple way to add structured data to a page.
 ---
 
-## Markdown Extended Specific
+## Markdown Editing MultiMarkdown Tests
 
-#### Task lists
-
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
-
-#### @Mentions
-
-@github/support What do you think about these updates?
-
-#### Emoji
-
-:+1:
-
-## Markdown General
+<!-- this should be an unreadable comment  -->
 
 ### Images
+
+![Alt Test](/path/to/image)
 
 ![image_attrs][]
 
@@ -35,8 +23,10 @@ description: A very simple way to add structured data to a page.
 ### Tables
 
 | First Header | Second Header |         Third Header |
+<!--    ^^^^^^ fs=bold  -->
 | :----------- | :-----------: | -------------------: |
 | First row    |      Data     | Very long data entry |
+<!--    ^^^ fg=#3C3C3C  -->
 | Second row   |    **Cell**   |               *Cell* |
 [a caption]
 
@@ -49,10 +39,13 @@ description: A very simple way to add structured data to a page.
 
 ### Footnotes
 
-Here is some text containing a footnote.[^somesamplefootnote] Here's a more advanced footnote[^longer]
+Here is some text containing a footnote.[^somesamplefootnote] Here's a more advanced
+                            <!--        ^^^^^^^^^ fg=#B9B9B9  -->
+footnote[^longer] and a [general reference] link.
 
 [^somesamplefootnote]: Here is the text of the footnote itself.
 [^longer]: Here is the text of the footnote itself. It is...
+[general reference]: www.dotcom.com
 
     ... a bit longer though.
 
@@ -85,5 +78,8 @@ Apple
 
 Orange
 :   The fruit of an evergreen tree of the genus Citrus.
+
+## End of Document
+
 
 ## End of Document

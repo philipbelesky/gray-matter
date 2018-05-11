@@ -1,0 +1,52 @@
+
+<!-- Overwrites default syntax; not supported at present-->
+
+## Markdown Editing GitHub Flavor Tests
+
+## Task List Extension <!-- Incidentally Supported in Syntax -->
+
+- [ ] List of TODOs
+<!--^ fg=#B9B9B9 -->
+<!--^ fg=#B9B9B9 -->
+
+- [x] foo
+  - [ ] bar
+  - [x] baz
+- [ ] bim
+
+## Table Extension <!-- Not Supported in Syntax -->
+
+| foo | bar |
+| --- | --- |
+| baz | bim |
+
+| abc | defghi |
+:-: | -----------:
+bar | baz
+
+| f\|oo  |
+| ------ |
+| b `\|` az |
+| b **\|** im |
+
+| abc | def |
+| --- | --- |
+| bar | baz |
+
+| abc | def |
+| --- | --- |
+| bar |
+| bar | baz | boo |
+
+| abc | def |
+| --- | --- |
+
+## Autolink Extensions <!-- Not Supported in Syntax -->
+
+Visit www.commonmark.org/help for more information.
+
+## Strikethrough Extension <!-- Not Supported in Syntax -->
+
+~Hi~ Hello, world!
+
+## End of Document
