@@ -65,6 +65,9 @@ Selection highlight             : #C3E8F3 > #373737
         <key>currentFindMatchHighlight</key><!-- VSC: Background color of the current region matching the search -->
         <string>#C3E8F3</string>
 
+        <key>misspelling</key><!-- Sublime text spelling underline -->
+        <string>#29BEEA</string>
+
         <key>wordHighlight</key><!-- VSC: ?? -->
         <string>#C3E8F3</string>
         <key>wordHighlightStrong</key><!-- VSC: ?? -->
