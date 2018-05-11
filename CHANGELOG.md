@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.5.0] - 18-05-11
+### Added
+- Added themed colour highlights for misspellings in Sublime Text
+- Added themed color for the collapsed block indicator in Sublime Text
+
+### Removed
+- Critic Markup support
+
 ## [1.4.2] - 2018-01-08
 ### Changed
 - Properly specify the dark mode theme for VS Code in the package.json file
@@ -21,7 +29,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.3.0] - 2017-09-11
 ### Added
-- New editor chrome colors for VSCode; fixes especially bad contrasts when using the Dark theme
+- New editor chrome colours for VSCode; fixes especially bad contrasts when using the Dark theme
 
 ## [1.2.1] - 2017-02-10
 ### Added
