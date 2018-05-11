@@ -4,10 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.5.0] - 
+## [1.5.0] - 18-05-11
 ### Added
-- Added themed colour highlights for misspellings
-- Added themed color for the collapsed block indicator
+- Added themed colour highlights for misspellings in Sublime Text
+- Added themed color for the collapsed block indicator in Sublime Text
+
+### Removed
+- Critic Markup support
 
 ## [1.4.1] - 2017-09-16
 ### Added
