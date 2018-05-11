@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.5.0] - 
+### Added
+- Added themed colour highlights for misspellings
+- Added themed color for the collapsed block indicator
+
 ## [1.4.1] - 2017-09-16
 ### Added
 - Added basic tests using sublime_color_scheme_unit
@@ -17,7 +22,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.3.0] - 2017-09-11
 ### Added
-- New editor chrome colors for VSCode; fixes especially bad contrasts when using the Dark theme
+- New editor chrome colours for VSCode; fixes especially bad contrasts when using the Dark theme
 
 ## [1.2.1] - 2017-02-10
 ### Added

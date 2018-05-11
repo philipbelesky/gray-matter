@@ -45,27 +45,28 @@ While in this file here are another few options you may want to consider in orde
     "line_numbers": true,
     "line_padding_bottom": 4,
     "line_padding_top": 4,
-    "rulers": [],
     "tab_size": 4,
     "word_wrap": true,
     "wrap_width": 90
+
+This color scheme pairs well with [Boxy Yesterday](https://github.com/ihodev/sublime-boxy#boxy-yesterday--atom) if you desire a similar aesthetic for the wider Sublime Text chrome.
 
 ### Wider Syntax Support
 
 - For Critic Mark you'll need to manually install the [Critic Markup package](http://criticmarkup.com/sublime-text.php) — it is not in package control.
 - For Pandoc syntax you'll need to install the [Pandoc Academic package](https://github.com/larlequin/PandocAcademic) from Package Control
 
-## Visual Studio Installation & Configuration
+## Visual Studio Code Installation & Configuration
 
 Currently the theme is available through the Visual Studio Marketplace. You can then activate it in the `Preferences` > `Color Theme` section of the menu.
 
 ## Development
 
-#### Tests
+### Tests
 
 Tests use [sublime_color_scheme_unit](https://github.com/gerardroche/sublime_color_scheme_unit) to test for regressions. Once installed (via Package Control) the `:TestSuite` command in the Command Palette will run the test set.
 
-#### References/Aids
+### References/Aids
 
 - [Textmate language grammars](https://manual.macromates.com/en/language_grammars.html)
 - [Textmate scope selectors](https://manual.macromates.com/en/scope_selectors.html)
@@ -73,13 +74,13 @@ Tests use [sublime_color_scheme_unit](https://github.com/gerardroche/sublime_col
 - Sublime Text Color Schemes (if active) mostly reload when the file is saved; if not run `[ v.settings().erase("color_scheme") for views in [ w.views() for w in sublime.windows() ] for v in views ]` in the console
 - Sublime Text's [Scope Hunter](https://github.com/facelessuser/ScopeHunter) plugin
 
-#### Building
+### Building
 
 A script builds the Dark version of the theme.
 
     $ bash build.sh
 
-#### Publishing
+### Publishing
 
 Sublime Text works with the `.thTheme` files in the root directory. To publish to Package Control just tag the version and push from master.
 
@@ -95,6 +96,4 @@ The MIT license.
 
 ## Acknowledgements
 
-This colour scheme is heavily drawn from the visual style of [Byword](http://bywordapp.com/), [iA Writer](http://iawriter.com), and [Ulysses](https://ulyssesapp.com). I love both applications, but also like to make using of Sublime's more advanced features while writing.
-
-See `DEVELOPMENT.md` for information on Pull Requests, the Roadmap, etc.
+This colour scheme is heavily influence by the visual style of [Byword](http://bywordapp.com/), [iA Writer](http://iawriter.com), and [Ulysses](https://ulyssesapp.com). 
