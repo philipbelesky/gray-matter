@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 - Critic Markup support
 
+## [1.4.2] - 2018-01-08
+### Changed
+- Properly specify the dark mode theme for VS Code in the package.json file
+
 ## [1.4.1] - 2017-09-16
 ### Added
 - Added basic tests using sublime_color_scheme_unit

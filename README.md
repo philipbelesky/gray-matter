@@ -10,7 +10,7 @@ A pair of colour schemes for writing Markdown in Sublime Text, Visual Studio Cod
 
 ![Dark Theme](https://github.com/philipbelesky/gray-matter/raw/master/screenshots/dark.jpg)
 
-## Sublime Text Installation & Configuration
+## Sublime Text Installation
 
 ### With Package Control
 
@@ -66,7 +66,7 @@ Currently the theme is available through the Visual Studio Marketplace. You can 
 
 Tests use [sublime_color_scheme_unit](https://github.com/gerardroche/sublime_color_scheme_unit) to test for regressions. Once installed (via Package Control) the `:TestSuite` command in the Command Palette will run the test set.
 
-### References/Aids
+### References
 
 - [Textmate language grammars](https://manual.macromates.com/en/language_grammars.html)
 - [Textmate scope selectors](https://manual.macromates.com/en/scope_selectors.html)
@@ -89,6 +89,12 @@ Visual Studio code uses the `*-color-theme.json` files in the root directory whi
     $ vsce publish 1.2.0
 
 Atom uses the `.less` files in `gray-matter-X-syntax` folders
+
+## Roadmap
+
+- Sublime Text Multimarkdown Grammars don't appear to exist for most footnote formats in-text such as `[^ref]` / `[@Kullmann:2014bd 26]` or for recognising the bottom reference to a footnote such as `[^ref]:` / `[#Doe:2011]:`.
+- Sublime Text Multimarkdown Grammars don't appear to exist for recognising the actual text part of an ATX style header
+- Sublime Text Multimarkdown Grammars don't appear to exist for getting the syntax elements (ie the `1.` or `-`) for lists beyond the first item.
 
 ## License
 
