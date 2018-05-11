@@ -6,6 +6,8 @@
 
 ### Images
 
+![Alt Test](/path/to/image)
+
 ![image_attrs][]
 
 ![This is the figure caption][fig_id]
@@ -32,10 +34,13 @@
 
 ### Footnotes
 
-Here is some text containing a footnote.[^somesamplefootnote] Here's a more advanced footnote[^longer]
+Here is some text containing a footnote.[^somesamplefootnote] Here's a more advanced
+                            <!--        ^^^^^^^^^ fg=#B9B9B9  -->
+footnote[^longer] and a [general reference] link.
 
 [^somesamplefootnote]: Here is the text of the footnote itself.
 [^longer]: Here is the text of the footnote itself. It is...
+[general reference]: www.dotcom.com
 
     ... a bit longer though.
 

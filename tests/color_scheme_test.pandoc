@@ -1,4 +1,4 @@
-<!-- COLOR SCHEME TEST "Color Scheme - Gray Matter/Gray Matter Light.tmTheme" "PandocAcademic" -->
+<!-- COLOR SCHEME TEST "Color Scheme - Gray Matter/Gray Matter Light.tmTheme" "Pandoc" -->
 % Pandoc Tests
 % Philip Belesky
 % 2000-01-01
@@ -9,7 +9,7 @@
 
 This ~~is deleted text.~~
 
-H~2~O is a subscript example.  2^10^ is a superscript example.
+H~2~O is a subscript example. 2^10^ is a superscript example.
 
 This is an [Internal Link](#introduction).
 
@@ -17,9 +17,7 @@ This is an [Internal Link](#introduction).
 
 Here is a footnote reference,[^1] and another.[^longnote] TODO: square brackets and inline text should be gray here.
 
-Here is an inline note.^[Inlines notes are easier to write, since
-you don't have to pick an identifier and move down to type the
-note.] TODO: square brackets and inline text should be gray here.
+Here is an inline note.^[Inlines notes are easier to write, since you don't have to pick an identifier and move down to type the note.] TODO: square brackets and inline text should be gray here.
 
 [^1]: Here is the footnote. TODO: square brackets and in-square text should be gray here.
 

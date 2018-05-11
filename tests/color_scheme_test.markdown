@@ -2,7 +2,7 @@
 
 ## Markdown Tests
 
-#### Fint Stykes
+#### Font Styles
 
 A paragraph containing **bold style A** text.
 <!--                     ^^^^^^^^^^^^ fs=bold  -->
@@ -28,21 +28,25 @@ This is a [normal link with a title](http://daringfireball.net "Has a title") st
 <!--      ^ fg=#B9B9B9 ^^^^ fg=#3C3C3C ^ fg=#B9B9B9  ^^^^^^^^^^^^^^^^^^^^^^^ fg=#B9B9B9-->
 
 This is a [reference link][reference] style.
+<!--       ^ fg=#3C3C3C    ^ fg=#B9B9B9 -->
 
 This is a [lazy reference link][] style.
+<!--                          ^^^ fg=#B9B9B9 -->
 
 This is an automatic link: <http://example.com/> style and one more <email@email.com>.
+<!--                       ^^^^^^^ fg=#B9B9B9                       ^^^^^^^ fg=#B9B9B9-->
 
 A paragraph with an
 inline linebreak
 
 [reference]: http://daringfireball.net "A reference link"
 [lazy reference link]: http://daringfireball.net
+<!--                ^^ fg=#B9B9B9 -->
 
 #### Escaping
 
 This is some \` escaped syntax and some other \* escaped syntax
-<!--         ^ fg=#B9B9B9 -->
+<!--         ^ fg=#B9B9B9                     ^^ fg=#B9B9B9 -->
 
 This is just a \ standard backtick
 <!--           ^ fg=#3C3C3C -->
@@ -220,8 +224,10 @@ public class HelloWorld {
 ### Images
 
 ![Alt text](/path/to/img.jpg)
+<!--  ^^^ fg=#3C3C3C    ^^^^^ fg=#B9B9B9 -->
 
 ![Alt text](/path/to/img.jpg "Optional title")
+<!--      ^^^^^ fg=#B9B9B9 -->
 
 ### Embedded HTML
 

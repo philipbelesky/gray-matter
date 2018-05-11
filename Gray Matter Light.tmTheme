@@ -45,15 +45,19 @@ Selection highlight             : #C3E8F3 > #373737
         <key>referenceHighlight</key><!-- VSC: Background color when finding all references. -->
         <string>#EDEDED</string>
 
+        <!-- SELECTION -->
         <key>selection</key>
         <string>#C3E8F3</string><!--- A light blue highlight -->
-        <key>selectionBorder</key>
-        <string>#C3E8F3</string>
+        <key>selection_border_width</key>
+        <string>0</string>
+        <key>selection_corner_style</key>
+        <string>round</string>
         <key>inactiveSelection</key><!-- Selection color when the app is not in Focus -->
         <string>#C3E8F3</string>
         <key>selectionHighlight</key><!-- VSC: Background color of regions highlighted while selecting -->
         <string>#C3E8F3</string>
 
+        <!-- FIND -->
         <key>findHighlight</key><!-- Block background for when searching for a term -->
         <string>#C3E8F3</string>
         <key>findHighlightForeground</key><!-- Text color for when searching for a term -->
@@ -66,7 +70,7 @@ Selection highlight             : #C3E8F3 > #373737
         <string>#C3E8F3</string>
 
         <key>misspelling</key><!-- Sublime text spelling underline -->
-        <string>#29BEEA</string>
+        <string>#3C3C3C</string>
         <key>fold_marker</key><!-- Sublime text folding [...] -->
         <string>#C3E8F3</string>
 
@@ -206,6 +210,17 @@ Selection highlight             : #C3E8F3 > #373737
     </dict>
     <dict>
       <key>name</key>
+      <string>Markdown Image</string><!-- The ![] in -->
+      <key>scope</key>
+      <string>meta.image.reference.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#B9B9B9</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Markdown Link Actual Text</string><!-- (ie [THIS TEXT][#Doe:2011]) -->
       <key>scope</key>
       <string>string.other.link.title.markdown</string>
@@ -275,7 +290,7 @@ MULTIMARKDOWN
 -->
     <dict>
         <key>name</key>
-        <string>Markdown Meta</string>
+        <string>MultiMarkdown Meta</string>
         <!-- A document's title block -->
         <key>scope</key>
         <string>meta.header.multimarkdown,keyword.other.multimarkdown,string.unquoted.multimarkdown,punctuation.separator.key-value.multimarkdown</string>
@@ -287,7 +302,7 @@ MULTIMARKDOWN
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown Meta</string>
+        <string>MultiMarkdown Meta</string>
         <!-- A document's title block -->
         <key>scope</key>
         <string>constant.other.reference.link.markdown</string>
@@ -299,7 +314,7 @@ MULTIMARKDOWN
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown table syntax</string><!--  -->
+        <string>MultiMarkdown Table Syntax</string><!--  -->
         <key>scope</key>
         <string>punctuation.definition.table-cell-alignment.markdown,punctuation.section.table-header.markdown,punctuation.separator.table-cell.markdown</string>
         <key>settings</key>
@@ -310,9 +325,9 @@ MULTIMARKDOWN
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown table syntax</string><!--  -->
+        <string>MultiMarkdown Table Headers</string><!--  -->
         <key>scope</key>
-        <string>meta.table.header.markdown</string>
+        <string>meta.table.header.markdown,meta.table.header.markdown-gfm,   meta.table.header-separator.markdown-gfm</string>
         <key>settings</key>
         <dict>
             <key>fontStyle</key>
@@ -321,13 +336,39 @@ MULTIMARKDOWN
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown table syntax</string><!-- First word of a definition link; overrides inline link gray -->
+        <string>MultiMarkdown Foonotes</string><!-- First word of a definition link; overrides inline link gray -->
+        <key>scope</key>
+        <string> meta.link.reference.literal.footnote-id.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>MultiMarkdown table syntax</string><!-- First word of a definition link; overrides inline link gray -->
         <key>scope</key>
         <string>meta.link.reference.def.markdown markup.underline.link.markdown</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>
             <string>#3C3C3C</string>
+        </dict>
+    </dict>
+<!--
+MARKDOWN EXTENDED
+-->
+    <dict>
+        <key>name</key>
+        <string>Markdown Extended YAML</string>
+        <!-- A document's title block -->
+        <key>scope</key>
+        <string>markup.raw.yaml.front-matter</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
         </dict>
     </dict>
 <!--
@@ -394,85 +435,6 @@ GITGUTTER
         <key>foreground</key>
         <string>#B9B9B9</string>
       </dict>
-    </dict>
-<!--
-CRITIC MARKUP
--->
-    <dict>
-        <key>name</key>
-        <string>Addition</string>
-        <key>scope</key>
-        <string>string.addition</string>
-        <key>settings</key>
-        <dict>
-            <key>fontStyle</key>
-            <string>bold</string>
-            <key>foreground</key>
-            <string>#3C3C3C</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>Deletion</string>
-        <key>scope</key>
-        <string>string.deletion</string>
-        <key>settings</key>
-        <dict>
-            <key>fontStyle</key>
-            <string>bold</string>
-            <key>foreground</key>
-            <string>#B9B9B9</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>substitution</string>
-        <key>scope</key>
-        <string>string.substitution</string>
-        <key>settings</key>
-        <dict>
-            <key>fontStyle</key>
-            <string>bold</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>highlight</string>
-        <key>scope</key>
-        <string>string.highlight</string>
-        <key>settings</key>
-        <dict>
-            <key>fontStyle</key>
-            <string></string>
-            <key>background</key>
-            <string>#EDEDED</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>comment</string>
-        <key>scope</key>
-        <string>string.comment</string>
-        <key>settings</key>
-        <dict>
-            <key>fontStyle</key>
-            <string>italic</string>
-            <key>foreground</key>
-            <string>#B9B9B9</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>blockcomment</string>
-        <key>scope</key>
-        <string>string.blockcomment</string>
-        <key>settings</key>
-        <dict>
-            <key>fontStyle</key>
-            <string>italic</string>
-            <key>foreground</key>
-            <string>#B9B9B9</string>
-        </dict>
     </dict>
 <!--
 OVERRIDES

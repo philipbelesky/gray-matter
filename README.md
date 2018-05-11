@@ -51,10 +51,10 @@ While in this file here are another few options you may want to consider in orde
 
 This color scheme pairs well with [Boxy Yesterday](https://github.com/ihodev/sublime-boxy#boxy-yesterday--atom) if you desire a similar aesthetic for the wider Sublime Text chrome.
 
-### Wider Syntax Support
+### Supported Sublime Syntaxes
 
-- For Critic Mark you'll need to manually install the [Critic Markup package](http://criticmarkup.com/sublime-text.php) — it is not in package control.
-- For Pandoc syntax you'll need to install the [Pandoc Academic package](https://github.com/larlequin/PandocAcademic) from Package Control
+- Standard Sublime Text native packages for Markdown and MultiMarkdown
+- [Sublime Markdown Extended's syntax](https://github.com/jonschlinkert/sublime-markdown-extended) but note that inline code syntax support will not be available.
 
 ## Visual Studio Code Installation & Configuration
 
@@ -96,4 +96,4 @@ The MIT license.
 
 ## Acknowledgements
 
-This colour scheme is heavily influence by the visual style of [Byword](http://bywordapp.com/), [iA Writer](http://iawriter.com), and [Ulysses](https://ulyssesapp.com). 
+This colour scheme is heavily influence by the visual style of [Byword](http://bywordapp.com/), [iA Writer](http://iawriter.com), and [Ulysses](https://ulyssesapp.com).
