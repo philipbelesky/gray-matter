@@ -46,6 +46,26 @@ perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark-colo
 rm "Gray Matter Base-color-theme.json"
 
 ################################################################################
+# The Archive Dark Theme
+################################################################################
+
+cp -f "the archive/Gray Matter (Light).theme.json" "the archive/Gray Matter (Base).theme.json"
+
+# Make the Dark version
+cp -f "the archive/Gray Matter (Base).theme.json" "the archive/Gray Matter (Dark).theme.json"
+
+# Dark version color swaps
+perl -pi -e 's/3C3C3C/BEBEBE/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+perl -pi -e 's/B9B9B9/616161/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+perl -pi -e 's/F5F5F5/1A191A/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+perl -pi -e 's/EDEDED/222122/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+perl -pi -e 's/C3E8F3/373737/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+# Change the internal name
+perl -pi -e 's/"Light"/"Dark"/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+
+rm "the archive/Gray Matter (Base).theme.json"
+
+################################################################################
 
 echo "Finished Gray Matter Build"
 

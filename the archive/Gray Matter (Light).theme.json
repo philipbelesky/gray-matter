@@ -1,0 +1,113 @@
+{
+    "name": "Writer",
+    "style": "Light",
+    "author": [
+        {
+            "name": "Philip Belesky",
+            "url": "http://philipbelesky.com/"
+        },
+    ],
+    "version": "0.9",
+    "editor": {
+        "backgroundColor": "#F5F5F5",
+        "caretColor": "#29BEEA",
+        "selection": {
+            "backgroundColor": "#C3E8F3",
+            "unfocusedBackgroundColor": "#d2d9e1"
+        },
+        "highlight": {
+            "backgroundColor": "#C3E8F3",
+            "unfocusedBackgroundColor": "#ececec"
+        }
+    },
+    "savedSearchesSidebar": {
+        "color": "#3C3C3C",
+        "backgroundColor": "#EDEDED",
+        "highlightedBackgroundColor": "#C3E8F3",
+        "border": false,
+        "iconColors": {
+            "default": "#B9B9B9"
+        }
+    },
+    "resultsList": {
+        "color": "#3C3C3C",
+        "backgroundColor": "#EDEDED",
+        "alternateBackgroundColor": "#EDEDED",
+        "selection": {
+            "color": "#000",
+            "backgroundColor": "#C3E8F3",
+            "unfocusedColor": "#000",
+            "unfocusedBackgroundColor": "#EDEDED"
+        },
+        "border": "#EDEDED",
+    },
+    "styles": {
+        "base": {
+            "color": "#3C3C3C"
+        },
+        "h1": {
+            "font": { "style": "bold" }
+        },
+        "h2": {
+            "font": { "style": "bold" }
+        },
+        "h3": {
+            "font": { "style": "bold" }
+        },
+        "h4": {
+            "font": { "style": "bold" }
+        },
+        "h5": {
+            "font": { "style": "bold" }
+        },
+        "h6": {
+            "font": { "style": "bold" }
+        },
+        "horizontalRule": {
+            "color": "#B9B9B9",
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "codeBlock": {
+            "color": "#3C3C3C",
+            "backgroundColor": "#EDEDED",
+        },
+        "inlineCode": {
+            "color": "#3C3C3C",
+            "backgroundColor": "#EDEDED",
+        },
+        "blockquote": {
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "list": {
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "emphasis": {
+            "font": { "style": "italic" },
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "strong": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "image": {
+            "color": "#3C3C3C",
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "footnote": {
+            "color": "#B9B9B9",
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "link": {
+            "color": "#3C3C3C",
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "referenceDefinition": {
+            "color": "#3C3C3C",
+            "syntax": { "color" : "#B9B9B9" }
+        },
+        "comment": {
+            "color": "#B9B9B9",
+            "font": { "style": "regular" }
+        }
+    }
+}

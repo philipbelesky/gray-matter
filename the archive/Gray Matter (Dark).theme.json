@@ -1,0 +1,113 @@
+{
+    "name": "Writer",
+    "style": "Dark",
+    "author": [
+        {
+            "name": "Philip Belesky",
+            "url": "http://philipbelesky.com/"
+        },
+    ],
+    "version": "0.9",
+    "editor": {
+        "backgroundColor": "#1A191A",
+        "caretColor": "#29BEEA",
+        "selection": {
+            "backgroundColor": "#373737",
+            "unfocusedBackgroundColor": "#d2d9e1"
+        },
+        "highlight": {
+            "backgroundColor": "#373737",
+            "unfocusedBackgroundColor": "#ececec"
+        }
+    },
+    "savedSearchesSidebar": {
+        "color": "#BEBEBE",
+        "backgroundColor": "#222122",
+        "highlightedBackgroundColor": "#373737",
+        "border": false,
+        "iconColors": {
+            "default": "#616161"
+        }
+    },
+    "resultsList": {
+        "color": "#BEBEBE",
+        "backgroundColor": "#222122",
+        "alternateBackgroundColor": "#222122",
+        "selection": {
+            "color": "#000",
+            "backgroundColor": "#373737",
+            "unfocusedColor": "#000",
+            "unfocusedBackgroundColor": "#222122"
+        },
+        "border": "#222122",
+    },
+    "styles": {
+        "base": {
+            "color": "#BEBEBE"
+        },
+        "h1": {
+            "font": { "style": "bold" }
+        },
+        "h2": {
+            "font": { "style": "bold" }
+        },
+        "h3": {
+            "font": { "style": "bold" }
+        },
+        "h4": {
+            "font": { "style": "bold" }
+        },
+        "h5": {
+            "font": { "style": "bold" }
+        },
+        "h6": {
+            "font": { "style": "bold" }
+        },
+        "horizontalRule": {
+            "color": "#616161",
+            "syntax": { "color" : "#616161" }
+        },
+        "codeBlock": {
+            "color": "#BEBEBE",
+            "backgroundColor": "#222122",
+        },
+        "inlineCode": {
+            "color": "#BEBEBE",
+            "backgroundColor": "#222122",
+        },
+        "blockquote": {
+            "syntax": { "color" : "#616161" }
+        },
+        "list": {
+            "syntax": { "color" : "#616161" }
+        },
+        "emphasis": {
+            "font": { "style": "italic" },
+            "syntax": { "color" : "#616161" }
+        },
+        "strong": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#616161" }
+        },
+        "image": {
+            "color": "#BEBEBE",
+            "syntax": { "color" : "#616161" }
+        },
+        "footnote": {
+            "color": "#616161",
+            "syntax": { "color" : "#616161" }
+        },
+        "link": {
+            "color": "#BEBEBE",
+            "syntax": { "color" : "#616161" }
+        },
+        "referenceDefinition": {
+            "color": "#BEBEBE",
+            "syntax": { "color" : "#616161" }
+        },
+        "comment": {
+            "color": "#616161",
+            "font": { "style": "regular" }
+        }
+    }
+}
