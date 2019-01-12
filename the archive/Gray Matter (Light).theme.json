@@ -43,25 +43,38 @@
     },
     "styles": {
         "base": {
-            "color": "#3C3C3C"
+            "color": "#3C3C3C",
+            "indent": {"characters": 7},
         },
         "h1": {
-            "font": { "style": "bold" }
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#B9B9B9" },
+            "indent": {"characters": 5},
         },
         "h2": {
-            "font": { "style": "bold" }
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#B9B9B9" },
+            "indent": {"characters": 4},
         },
         "h3": {
-            "font": { "style": "bold" }
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#B9B9B9" },
+            "indent": {"characters": 3},
         },
         "h4": {
-            "font": { "style": "bold" }
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#B9B9B9" },
+            "indent": {"characters": 2},
         },
         "h5": {
-            "font": { "style": "bold" }
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#B9B9B9" },
+            "indent": {"characters": 1},
         },
         "h6": {
-            "font": { "style": "bold" }
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#B9B9B9" },
+            "indent": {"characters": 0},
         },
         "horizontalRule": {
             "color": "#B9B9B9",
@@ -76,10 +89,11 @@
             "backgroundColor": "#EDEDED",
         },
         "blockquote": {
-            "syntax": { "color" : "#B9B9B9" }
+            "syntax": { "color" : "#B9B9B9" },
+            "indent": {"characters": 5},
         },
         "list": {
-            "syntax": { "color" : "#B9B9B9" }
+            "syntax": { "color" : "#B9B9B9" },
         },
         "emphasis": {
             "font": { "style": "italic" },
@@ -91,7 +105,8 @@
         },
         "image": {
             "color": "#3C3C3C",
-            "syntax": { "color" : "#B9B9B9" }
+            "syntax": { "color" : "#B9B9B9" },
+            "indent": {"characters": 5},
         },
         "footnote": {
             "color": "#B9B9B9",
