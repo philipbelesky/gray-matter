@@ -44,37 +44,30 @@
     "styles": {
         "base": {
             "color": "#BEBEBE",
-            "indent": {"characters": 7},
         },
         "h1": {
             "font": { "style": "bold" },
             "syntax": { "color" : "#616161" },
-            "indent": {"characters": 5},
         },
         "h2": {
             "font": { "style": "bold" },
             "syntax": { "color" : "#616161" },
-            "indent": {"characters": 4},
         },
         "h3": {
             "font": { "style": "bold" },
             "syntax": { "color" : "#616161" },
-            "indent": {"characters": 3},
         },
         "h4": {
             "font": { "style": "bold" },
             "syntax": { "color" : "#616161" },
-            "indent": {"characters": 2},
         },
         "h5": {
             "font": { "style": "bold" },
             "syntax": { "color" : "#616161" },
-            "indent": {"characters": 1},
         },
         "h6": {
             "font": { "style": "bold" },
             "syntax": { "color" : "#616161" },
-            "indent": {"characters": 0},
         },
         "horizontalRule": {
             "color": "#616161",
@@ -90,7 +83,6 @@
         },
         "blockquote": {
             "syntax": { "color" : "#616161" },
-            "indent": {"characters": 5},
         },
         "list": {
             "syntax": { "color" : "#616161" },
@@ -106,7 +98,6 @@
         "image": {
             "color": "#BEBEBE",
             "syntax": { "color" : "#616161" },
-            "indent": {"characters": 5},
         },
         "footnote": {
             "color": "#616161",
