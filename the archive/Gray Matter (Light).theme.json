@@ -32,12 +32,12 @@
     "resultsList": {
         "color": "#3C3C3C",
         "backgroundColor": "#EDEDED",
-        "alternateBackgroundColor": "#EDEDED",
+        "alternateBackgroundColor": "#F5F5F5",
         "selection": {
             "color": "#000",
-            "backgroundColor": "#C3E8F3",
             "unfocusedColor": "#000",
-            "unfocusedBackgroundColor": "#EDEDED"
+            "backgroundColor": "#C3E8F3",
+            "unfocusedBackgroundColor": "#C3E8F3"
         },
         "border": "#EDEDED",
     },

@@ -32,12 +32,12 @@
     "resultsList": {
         "color": "#BEBEBE",
         "backgroundColor": "#222122",
-        "alternateBackgroundColor": "#222122",
+        "alternateBackgroundColor": "#1A191A",
         "selection": {
             "color": "#000",
-            "backgroundColor": "#373737",
             "unfocusedColor": "#000",
-            "unfocusedBackgroundColor": "#222122"
+            "backgroundColor": "#373737",
+            "unfocusedBackgroundColor": "#373737"
         },
         "border": "#222122",
     },
