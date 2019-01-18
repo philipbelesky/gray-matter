@@ -4,7 +4,8 @@
     "author": [
         {
             "name": "Philip Belesky",
-            "url": "http://philipbelesky.com/"
+            "url": "http://philipbelesky.com/",
+            "basedOn": "https://github.com/philipbelesky/gray-matter"
         },
     ],
     "version": "0.9",
