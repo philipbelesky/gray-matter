@@ -11,8 +11,10 @@ Base background                 : #1A191A > #1A191A
 Light background highlight      : #222122 > #222122
 
 Suggested cursor colour         : #29BEEA
-Selection highlight             : #373737 > #373737
+Selection highlight             : #1C434D > #1C434D
 (must be less dull than cursor)
+Dull Selection highlight        : #E5E5E5 > #323232
+(for when selection is in an unfocused state; only used by The Archive)
 
 -->
 <plist version="1.0">
@@ -47,35 +49,35 @@ Selection highlight             : #373737 > #373737
 
         
         <key>selection</key>
-        <string>#373737</string>
+        <string>#1C434D</string>
         <key>selection_border_width</key>
         <string>0</string>
         <key>selection_corner_style</key>
         <string>round</string>
         <key>inactiveSelection</key>
-        <string>#373737</string>
+        <string>#1C434D</string>
         <key>selectionHighlight</key>
-        <string>#373737</string>
+        <string>#1C434D</string>
 
         
         <key>findHighlight</key>
-        <string>#373737</string>
+        <string>#1C434D</string>
         <key>findHighlightForeground</key>
         <string>#BEBEBE</string>
         <key>findRangeHighlight</key>
         <string>#29BEEA</string>
         <key>findMatchHighlight</key>
-        <string>#373737</string>
+        <string>#1C434D</string>
         <key>currentFindMatchHighlight</key>
-        <string>#373737</string>
+        <string>#1C434D</string>
 
         <key>misspelling</key>
         <string>#BEBEBE</string>
         <key>fold_marker</key>
-        <string>#373737</string>
+        <string>#1C434D</string>
 
         <key>wordHighlight</key>
-        <string>#373737</string>
+        <string>#1C434D</string>
         <key>wordHighlightStrong</key>
         <string>#29BEEA</string>
 

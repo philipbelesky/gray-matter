@@ -11,8 +11,10 @@ Base background                 : #F5F5F5 > #1A191A
 Light background highlight      : #EDEDED > #222122
 
 Suggested cursor colour         : #29BEEA
-Selection highlight             : #C3E8F3 > #373737
+Selection highlight             : #C3E8F3 > #1C434D
 (must be less dull than cursor)
+Dull Selection highlight        : #E5E5E5 > #323232
+(for when selection is in an unfocused state; only used by The Archive)
 
 -->
 <plist version="1.0">

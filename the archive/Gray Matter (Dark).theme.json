@@ -8,37 +8,38 @@
             "basedOn": "https://github.com/philipbelesky/gray-matter"
         },
     ],
-    "version": "0.9",
+    "version": "0.10",
     "editor": {
         "backgroundColor": "#1A191A",
         "caretColor": "#29BEEA",
         "selection": {
-            "backgroundColor": "#373737",
-            "unfocusedBackgroundColor": "#d2d9e1"
+            "color": "#FFFFFF",
+            "backgroundColor": "#1C434D",
+            "unfocusedBackgroundColor": "#1C434D",
         },
         "highlight": {
-            "backgroundColor": "#373737",
-            "unfocusedBackgroundColor": "#ececec"
+            "backgroundColor": "#2D2D2D",
+            "unfocusedBackgroundColor": "#2D2D2D"
         }
     },
     "savedSearchesSidebar": {
         "color": "#BEBEBE",
         "backgroundColor": "#222122",
-        "highlightedBackgroundColor": "#373737",
+        "highlightedBackgroundColor": "#1C434D",
         "border": false,
         "iconColors": {
             "default": "#616161"
-        }
+        },
     },
     "resultsList": {
         "color": "#BEBEBE",
         "backgroundColor": "#222122",
         "alternateBackgroundColor": "#1A191A",
         "selection": {
-            "color": "#000",
-            "unfocusedColor": "#000",
-            "backgroundColor": "#373737",
-            "unfocusedBackgroundColor": "#373737"
+            "color": "#FFFFFF",
+            "unfocusedColor": "#FFFFFF",
+            "backgroundColor": "#1C434D",
+            "unfocusedBackgroundColor": "#2D2D2D"
         },
         "border": "#222122",
     },

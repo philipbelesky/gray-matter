@@ -18,7 +18,7 @@ perl -pi -e 's/3C3C3C/BEBEBE/g' Gray\ Matter\ Dark.tmTheme
 perl -pi -e 's/B9B9B9/616161/g' Gray\ Matter\ Dark.tmTheme
 perl -pi -e 's/F5F5F5/1A191A/g' Gray\ Matter\ Dark.tmTheme
 perl -pi -e 's/EDEDED/222122/g' Gray\ Matter\ Dark.tmTheme
-perl -pi -e 's/C3E8F3/373737/g' Gray\ Matter\ Dark.tmTheme
+perl -pi -e 's/C3E8F3/1C434D/g' Gray\ Matter\ Dark.tmTheme
 # Change the internal name
 perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark.tmTheme
 
@@ -39,7 +39,7 @@ perl -pi -e 's/3C3C3C/BEBEBE/g' Gray\ Matter\ Dark-color-theme.json
 perl -pi -e 's/B9B9B9/616161/g' Gray\ Matter\ Dark-color-theme.json
 perl -pi -e 's/F5F5F5/1A191A/g' Gray\ Matter\ Dark-color-theme.json
 perl -pi -e 's/EDEDED/222122/g' Gray\ Matter\ Dark-color-theme.json
-perl -pi -e 's/C3E8F3/373737/g' Gray\ Matter\ Dark-color-theme.json
+perl -pi -e 's/C3E8F3/1C434D/g' Gray\ Matter\ Dark-color-theme.json
 # Change the internal name
 perl -pi -e 's/Gray\ Matter\ Light/Gray\ Matter\ Dark/g' Gray\ Matter\ Dark-color-theme.json
 
@@ -59,7 +59,9 @@ perl -pi -e 's/3C3C3C/BEBEBE/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
 perl -pi -e 's/B9B9B9/616161/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
 perl -pi -e 's/F5F5F5/1A191A/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
 perl -pi -e 's/EDEDED/222122/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
-perl -pi -e 's/C3E8F3/373737/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+perl -pi -e 's/C3E8F3/1C434D/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+perl -pi -e 's/000000/FFFFFF/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
+perl -pi -e 's/E5E5E5/2D2D2D/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
 # Change the internal name
 perl -pi -e 's/"Light"/"Dark"/g' the\ archive/Gray\ Matter\ \(Dark\).theme.json
 
