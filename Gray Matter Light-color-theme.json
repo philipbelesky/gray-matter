@@ -16,8 +16,7 @@
 		"editor.rangeHighlightBackground": "#EDEDED",
 		"editor.selectionBackground": "#C3E8F3",
 		"editor.wordHighlightBackground": "#C3E8F3",
-		"editor.wordHighlightStrongBackground": "#29BEEA",
-		"editorCursor.foreground": "#29BEEA",
+        "editor.wordHighlightStrongBackground": "#29BEEA",
 		"editorGroupHeader.tabsBackground": "#F5F5F5",
 		"editorIndentGuide.background": "#F5F5F5",
 		"editorLineNumber.foreground": "#B9B9B9",
@@ -44,7 +43,12 @@
 		"titleBar.inactiveBackground":  "#F5F5F5",
 		"titleBar.inactiveForeground": "#B9B9B9",
         "widget.shadow": "#EDEDED",
-        "scrollbar.shadow": "#EDEDED"
+        "scrollbar.shadow": "#EDEDED",
+        // Cursor Blocks
+        "editorCursor.foreground": "#29BEEA",
+        "editorCursor.background": "#FFF",
+        "terminalCursor.foreground": "#29BEEA", // Also used for VIM edit mode (this is the block)
+        "terminalCursor.background": "#FFF", // Also used for VIM edit mode (this is the text)
 	},
 	"name": "Gray Matter Light"
 }

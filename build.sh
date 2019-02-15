@@ -71,15 +71,3 @@ rm "the archive/Gray Matter (Base).theme.json"
 
 echo "Finished Gray Matter Build"
 
-# Convert light and dark to Atom formats (WIP)
-# apm init --theme gray-matter-light-syntax --convert "./Gray Matter Base.tmTheme"
-# apm init --theme gray-matter-dark-syntax --convert "./Gray Matter Dark.tmTheme"
-
-# # Copy over metadata just for atom packages
-# cp -f "CHANGELOG.md"    "./gray-matter-light-syntax/CHANGELOG.md"
-# cp -f "CHANGELOG.md"    "./gray-matter-dark-syntax/CHANGELOG.md"
-# cp -f "README.md"       "./gray-matter-light-syntax/README.md"
-# cp -f "README.md"       "./gray-matter-dark-syntax/README.md"
-
-# cp -R ./gray-matter-light-syntax/  ~/.atom/dev/packages/gray-matter-light-syntax
-# cp -R ./gray-matter-dark-syntax/  ~/.atom/dev/packages/gray-matter-dark-syntax
