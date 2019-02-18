@@ -17,6 +17,7 @@
 		"editor.selectionBackground": "#C3E8F3",
 		"editor.wordHighlightBackground": "#C3E8F3",
         "editor.wordHighlightStrongBackground": "#29BEEA",
+        "editorOverviewRuler.border": "#F5F5F5", // Remove borders from scroll bars
 		"editorGroupHeader.tabsBackground": "#F5F5F5",
 		"editorIndentGuide.background": "#F5F5F5",
 		"editorLineNumber.foreground": "#B9B9B9",
