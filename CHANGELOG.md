@@ -4,7 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.5.0] - 18-05-11
+## [1.6.0] - 2019-03-23
+### Added
+- Proper colors for the status bar in VS Code when debugging - thanks for the PR @bemayr
+- Color themes for The Archive application
+
+### Changed
+- Improved color contrast in selection highlights for dark themes
+- Improved color contrast in different cursor styles for VS Code
+- Removed borders for scroll bars in VS Code
+
+## [1.5.0] - 2018-05-11
 ### Added
 - Added themed colour highlights for misspellings in Sublime Text
 - Added themed color for the collapsed block indicator in Sublime Text
