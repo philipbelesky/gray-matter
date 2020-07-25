@@ -26,6 +26,7 @@
         ]
     },
     "devDependencies": {
-        "vsce": "^1.77.0"
+        "vsce": "^1.77.0",
+        "ovsx": "0.1.0-next.dacd2fd"
     }
 }
