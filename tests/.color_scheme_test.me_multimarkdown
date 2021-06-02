@@ -69,6 +69,7 @@ This is also statement without a locator source[][#Doe:2009].
 This is a combination of citations[p. 22][#Doe:2006][p. 10][#Doe:2009]. As is this [#Doe:2009][][#Doe:2006][].
 
 [#Doe:2011]: John Doe. *The Final Big Fancy Book*. Vanity Press, 2011.
+
 [Not cited][#Doe:2011]
 
 ### Definition Lists

@@ -86,8 +86,8 @@ Sublime Text works with the `.thTheme` files in the root directory. To publish t
 
 Visual Studio code uses the `*-color-theme.json` files in the root directory which contain a number of VSC-specific settings for the editor chrome and import the `.tmTheme` for basic syntax highlighting. To publish to the Visual Studio Marketplace (requires the `vsce` package from `npm install`):
 
-    $ vsce publish 1.2.0
-    $ ovsx publish -p <token>
+    $ npx vsce publish 
+    $ npx ovsx publish -p <token>
 
 Atom uses the `.less` files in `gray-matter-X-syntax` folders
 

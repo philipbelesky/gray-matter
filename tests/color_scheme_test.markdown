@@ -1,4 +1,4 @@
-<!-- COLOR SCHEME TEST "Color Scheme - Gray Matter/Gray Matter Light.tmTheme" "Markdown" -->
+<!-- COLOR SCHEME TEST "gray-matter/Gray Matter Light.tmTheme" "Markdown" -->
 
 ## Markdown Tests
 

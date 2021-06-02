@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.7.0] - 2021-06-02
+### Added
+- Better differentiate heading levels using bold/italics
+- Improved footnote syntax support
+
 ## [1.6.0] - 2019-03-23
 ### Added
 - Proper colors for the status bar in VS Code when debugging - thanks for the PR @bemayr
