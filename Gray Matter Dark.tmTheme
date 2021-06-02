@@ -120,17 +120,48 @@ Dull Selection highlight        : #E5E5E5 > #323232
             <string>#616161</string>
         </dict>
     </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown Structural Elements</string>
+        <key>scope</key>
+        <string>punctuation.definition.heading.begin.markdown,punctuation.definition.heading.end.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>normal</string>
+        </dict>
+     </dict>
      <dict>
       <key>name</key>
       <string>Markdown Heading Text</string>
       <key>scope</key>
-      <string>markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.markdown</string>
+      <string>markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.3.markdown,markup.heading.4.markdown,markup.heading.5.markdown,markup.heading.6.markdown,markup.heading.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BEBEBE</string>
+      </dict>
+    </dict>
+     <dict>
+      <key>name</key>
+      <string>Markdown Heading Text</string>
+      <key>scope</key>
+      <string>markup.heading.1.markdown,markup.heading.2.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Heading Text</string>
+      <key>scope</key>
+      <string>markup.heading.3.markdown,markup.heading.4.markdown</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string>bold</string>
-        <key>foreground</key>
-        <string>#BEBEBE</string>
       </dict>
     </dict>
     <dict>
@@ -376,6 +407,18 @@ MARKDOWN EXTENDED
 <!--
 PANDOC
 -->
+    <dict>
+        <key>name</key>
+        <string>Inline Footnote</string>
+        
+        <key>scope</key>
+        <string>entity.name.reference.link.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#616161</string>
+        </dict>
+    </dict>
     <dict>
         <key>name</key>
         <string>Inline Footnote</string>

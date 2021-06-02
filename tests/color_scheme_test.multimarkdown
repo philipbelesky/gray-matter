@@ -52,18 +52,17 @@ footnote[^longer] and a [general reference] link.
 
 This is a statement that should be attributed to its source[p. 23][#Doe:2006].
 
-This is also statement that should be attributed to its source[#Doe:2009][].
+[#Doe:2006]: John Doe. *Some Big Fancy Book*. Vanity Press, 2006.
+<!--         ^^^^^^^^^ fg=#3C3C3C  -->
 
-This is also statement without a locator source[][#Doe:2009].
+This is a statement without a locator source[][#Doe:2009].
 
-[Not cited][#Doe:2011]
+[#Doe:2009]: John Doe. *Another Big Fancy Book*. Vanity Press, 2009.
 
 This is a combination of citations[p. 22][#Doe:2006][p. 10][#Doe:2009]. As is this [#Doe:2009][][#Doe:2006][].
 
-[#Doe:2006]: John Doe. *Some Big Fancy Book*.  Vanity Press, 2006.
-<!--         ^^^^^^^^^ fg=#3C3C3C  -->
-[#Doe:2009]: John Doe. *Another Big Fancy Book*.  Vanity Press, 2009.
 [#Doe:2011]: John Doe. *The Final Big Fancy Book*.  Vanity Press, 2011.
+[Not cited][#Doe:2012]
 
 ### Definition Lists
 

@@ -120,17 +120,48 @@ Dull Selection highlight        : #E5E5E5 > #323232
             <string>#B9B9B9</string>
         </dict>
     </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown Structural Elements</string><!-- For headings #s dont stylise them -->
+        <key>scope</key>
+        <string>punctuation.definition.heading.begin.markdown,punctuation.definition.heading.end.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>normal</string>
+        </dict>
+     </dict>
      <dict>
       <key>name</key>
-      <string>Markdown Heading Text</string>
+      <string>Markdown Heading Text</string><!-- Darken all headings -->
       <key>scope</key>
-      <string>markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.markdown</string>
+      <string>markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.3.markdown,markup.heading.4.markdown,markup.heading.5.markdown,markup.heading.6.markdown,markup.heading.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#3C3C3C</string>
+      </dict>
+    </dict>
+     <dict>
+      <key>name</key>
+      <string>Markdown Heading Text</string><!-- Bold Italics H1-H2 -->
+      <key>scope</key>
+      <string>markup.heading.1.markdown,markup.heading.2.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Heading Text</string><!-- Bold H1-H4 -->
+      <key>scope</key>
+      <string>markup.heading.3.markdown,markup.heading.4.markdown</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string>bold</string>
-        <key>foreground</key>
-        <string>#3C3C3C</string>
       </dict>
     </dict>
     <dict>
@@ -376,6 +407,18 @@ MARKDOWN EXTENDED
 <!--
 PANDOC
 -->
+    <dict>
+        <key>name</key>
+        <string>Inline Footnote</string>
+        <!-- The ^somesamplefootnote in [^somesamplefootnote]-->
+        <key>scope</key>
+        <string>entity.name.reference.link.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
     <dict>
         <key>name</key>
         <string>Inline Footnote</string>
